@@ -1,0 +1,223 @@
+{
+  "_note": "Audience paths: the 'Find your path' block on Home and the 'Get involved' page. Each persona has a short line (Home) and a longer text plus actions (Get involved). Action href: a page id (events), a page id with an anchor (resources#cat-governance), a key from site.json links (careerForm), a full URL, or mail:Subject (opens an email to contact@ with the subject '[LAISH] Subject'). Why we do this: see LAISHweb/07-paths-justification.md.",
+  "en": {
+    "home": {
+      "label": "Find your path",
+      "title": "Where do you start?",
+      "intro": "Pick the line that fits you best. Each one leads to a first step.",
+      "all": "All ways to get involved"
+    },
+    "advisors": {
+      "label": "Advisors",
+      "title": "Advised by people from the AI safety field.",
+      "link": "Team and advisors"
+    },
+    "page": {
+      "title": "Get involved · LAISH",
+      "description": "Find your way into AI safety in Portugal: paths for newcomers, students, professionals, policy people, experts and organisations.",
+      "tag": "Get involved",
+      "heading": "Find your way to contribute.",
+      "lede": "AI safety needs people from every background, not only engineers. Pick the path that fits you. Each one starts with a small step.",
+      "toc": "Paths"
+    },
+    "personas": [
+      {
+        "id": "new",
+        "title": "I'm new to AI safety",
+        "short": "No technical background needed. Start with one evening.",
+        "text": "You do not need a technical background. Start with one evening with us and one good introduction, then decide how far you want to go.",
+        "actions": [
+          { "label": "Come to an event", "href": "events" },
+          { "label": "Read a short introduction", "href": "resources#cat-courses" },
+          { "label": "Get the monthly newsletter", "href": "substackSubscribe" }
+        ]
+      },
+      {
+        "id": "student",
+        "title": "I'm a student",
+        "short": "Point your degree, thesis or first job at the problem.",
+        "text": "Students at ISCTE, Nova SBE, Técnico and other universities: use your degree to work on the problem early, in your thesis, your research and your first job.",
+        "actions": [
+          { "label": "Join the fellowship", "href": "fellowship" },
+          { "label": "Get career guidance", "href": "careerForm" },
+          { "label": "Find a thesis topic (Effective Thesis)", "href": "https://effectivethesis.org/" }
+        ]
+      },
+      {
+        "id": "professional",
+        "title": "I'm a professional or changing careers",
+        "short": "Learn part-time, then plan a move or bring AI safety into your work.",
+        "text": "Learn part-time, next to your job. Then plan a move into AI safety, or bring it into the work you do now. Many of us came to Lisbon from abroad: you are welcome here.",
+        "actions": [
+          { "label": "Talk to us about your career", "href": "careerForm" },
+          { "label": "Join the fellowship", "href": "fellowship" },
+          { "label": "Meet the community on Discord", "href": "discord" }
+        ]
+      },
+      {
+        "id": "policy",
+        "title": "I work in policy, law or government",
+        "short": "Portugal can help shape how AI is governed. Learn the governance side.",
+        "text": "As an EU member and a middle power, Portugal can help shape how frontier AI is governed. Start with the governance side: the EU AI Act, frontier AI policy and Portugal's place in it.",
+        "actions": [
+          { "label": "Governance reading list", "href": "resources#cat-governance" },
+          { "label": "Europe and the EU AI Act", "href": "resources#cat-europe" },
+          { "label": "A fellow's essay on AI and the law", "href": "https://lisbonaisafetyhub.substack.com/p/biometric-data-ai-and-the-structural" },
+          { "label": "Talk to us about policy", "href": "mail:Policy" }
+        ]
+      },
+      {
+        "id": "expert",
+        "title": "I work in AI, tech or research",
+        "short": "Give a talk, mentor a fellow or join our paper discussions.",
+        "text": "Share what you know. One talk, one hour of mentoring or one thesis supervision can change the direction of someone's career.",
+        "actions": [
+          { "label": "Offer a talk", "href": "mail:Give a talk" },
+          { "label": "Mentor a fellow or supervise a thesis", "href": "mail:Mentoring" },
+          { "label": "Join the Frontier Paper Discussion Group", "href": "events" }
+        ]
+      },
+      {
+        "id": "organisation",
+        "title": "I represent an organisation",
+        "short": "Host an event, partner on a programme or support our work.",
+        "text": "Universities, companies, public bodies, funders and the press. Host an event, partner on a programme, support our work, or ask for an expert view.",
+        "actions": [
+          { "label": "Partner with us", "href": "mail:Partnerships" },
+          { "label": "Support our work", "href": "mail:Support" },
+          { "label": "Press enquiries", "href": "mail:Press" }
+        ]
+      }
+    ],
+    "volunteer": {
+      "label": "Volunteer",
+      "title": "Help run the hub.",
+      "text": "LAISH is run by volunteers. Give a few hours a month and learn by doing.",
+      "roles": [
+        { "title": "Events", "text": "Organise and host screenings, discussions and socials." },
+        { "title": "Fellowship", "text": "Facilitate a weekly discussion group. Some AI safety background needed." },
+        { "title": "Writing", "text": "Help edit the newsletter and the fellows' essays." },
+        { "title": "Outreach", "text": "Bring LAISH to your university, your company and social media." }
+      ],
+      "note": "[Confirm the volunteer roles with Caleb.]",
+      "button": "Volunteer with us"
+    },
+    "elsewhere": {
+      "title": "Not in Lisbon?",
+      "text": "Join the Discord and the newsletter from anywhere in Portugal. Want to start a group in your city? Write to us.",
+      "discord": "Join the Discord",
+      "group": "Start a group"
+    },
+    "questions": { "text": "Still not sure where you fit?", "link": "Write to us" }
+  },
+  "pt": {
+    "home": {
+      "label": "Encontra o teu caminho",
+      "title": "Por onde começas?",
+      "intro": "Escolhe a opção que mais se aplica a ti. Cada uma leva a um primeiro passo.",
+      "all": "Todas as formas de participar"
+    },
+    "advisors": {
+      "label": "Conselheiros",
+      "title": "Com o apoio de pessoas do campo da segurança da IA.",
+      "link": "Equipa e conselheiros"
+    },
+    "page": {
+      "title": "Participa · LAISH",
+      "description": "Encontra o teu caminho para a segurança da IA em Portugal: percursos para quem está a começar, estudantes, profissionais, políticas públicas, especialistas e organizações.",
+      "tag": "Participa",
+      "heading": "Encontra a tua forma de contribuir.",
+      "lede": "A segurança da IA precisa de pessoas de todas as áreas, não só de engenheiros. Escolhe o percurso que mais se aplica a ti. Cada um começa com um pequeno passo.",
+      "toc": "Percursos"
+    },
+    "personas": [
+      {
+        "id": "new",
+        "title": "Estou a começar na segurança da IA",
+        "short": "Não precisas de formação técnica. Começa com uma noite.",
+        "text": "Não precisas de formação técnica. Começa com uma noite connosco e uma boa introdução, e depois decide até onde queres ir.",
+        "actions": [
+          { "label": "Vem a um evento", "href": "events" },
+          { "label": "Lê uma introdução curta", "href": "resources#cat-courses" },
+          { "label": "Recebe a newsletter mensal", "href": "substackSubscribe" }
+        ]
+      },
+      {
+        "id": "student",
+        "title": "Sou estudante",
+        "short": "Orienta o teu curso, a tua tese ou o teu primeiro emprego para o problema.",
+        "text": "Estudantes do ISCTE, da Nova SBE, do Técnico e de outras universidades: usa o teu curso para trabalhar no problema desde cedo, na tese, na investigação e no primeiro emprego.",
+        "actions": [
+          { "label": "Participa no fellowship", "href": "fellowship" },
+          { "label": "Pede orientação de carreira", "href": "careerForm" },
+          { "label": "Encontra um tema de tese (Effective Thesis)", "href": "https://effectivethesis.org/" }
+        ]
+      },
+      {
+        "id": "professional",
+        "title": "Sou profissional ou estou a mudar de carreira",
+        "short": "Aprende a tempo parcial e depois planeia a mudança ou leva a segurança da IA para o teu trabalho.",
+        "text": "Aprende a tempo parcial, ao lado do teu trabalho. Depois planeia a mudança para a segurança da IA, ou leva-a para o trabalho que já fazes. Muitos de nós viemos para Lisboa de outros países: aqui há lugar para ti.",
+        "actions": [
+          { "label": "Fala connosco sobre a tua carreira", "href": "careerForm" },
+          { "label": "Participa no fellowship", "href": "fellowship" },
+          { "label": "Conhece a comunidade no Discord", "href": "discord" }
+        ]
+      },
+      {
+        "id": "policy",
+        "title": "Trabalho em políticas públicas, direito ou administração pública",
+        "short": "Portugal pode ajudar a definir como a IA é governada. Aprende a parte da governação.",
+        "text": "Como Estado-membro da UE e potência média, Portugal pode ajudar a definir como a IA de fronteira é governada. Começa pela governação: o Regulamento Europeu da IA, as políticas para a IA de fronteira e o lugar de Portugal nisso.",
+        "actions": [
+          { "label": "Leituras sobre governação", "href": "resources#cat-governance" },
+          { "label": "A Europa e o Regulamento Europeu da IA", "href": "resources#cat-europe" },
+          { "label": "O ensaio de um fellow sobre IA e direito", "href": "https://lisbonaisafetyhub.substack.com/p/biometric-data-ai-and-the-structural" },
+          { "label": "Fala connosco sobre políticas públicas", "href": "mail:Policy" }
+        ]
+      },
+      {
+        "id": "expert",
+        "title": "Trabalho em IA, tecnologia ou investigação",
+        "short": "Dá uma palestra, orienta um fellow ou junta-te às nossas discussões de papers.",
+        "text": "Partilha o que sabes. Uma palestra, uma hora de mentoria ou a orientação de uma tese podem mudar o rumo da carreira de alguém.",
+        "actions": [
+          { "label": "Propõe uma palestra", "href": "mail:Give a talk" },
+          { "label": "Orienta um fellow ou uma tese", "href": "mail:Mentoring" },
+          { "label": "Junta-te ao Frontier Paper Discussion Group", "href": "events" }
+        ]
+      },
+      {
+        "id": "organisation",
+        "title": "Represento uma organização",
+        "short": "Acolhe um evento, sê parceiro num programa ou apoia o nosso trabalho.",
+        "text": "Universidades, empresas, organismos públicos, financiadores e imprensa. Acolhe um evento, sê parceiro num programa, apoia o nosso trabalho ou pede a opinião de um especialista.",
+        "actions": [
+          { "label": "Sê nosso parceiro", "href": "mail:Partnerships" },
+          { "label": "Apoia o nosso trabalho", "href": "mail:Support" },
+          { "label": "Contactos de imprensa", "href": "mail:Press" }
+        ]
+      }
+    ],
+    "volunteer": {
+      "label": "Voluntariado",
+      "title": "Ajuda a dinamizar o hub.",
+      "text": "A LAISH é feita por voluntários. Dá algumas horas por mês e aprende fazendo.",
+      "roles": [
+        { "title": "Eventos", "text": "Organiza e acolhe exibições, discussões e encontros." },
+        { "title": "Fellowship", "text": "Dinamiza um grupo de discussão semanal. É preciso alguma formação em segurança da IA." },
+        { "title": "Escrita", "text": "Ajuda a editar a newsletter e os ensaios dos fellows." },
+        { "title": "Divulgação", "text": "Leva a LAISH à tua universidade, à tua empresa e às redes sociais." }
+      ],
+      "note": "[Confirmar as funções de voluntariado com o Caleb.]",
+      "button": "Junta-te aos voluntários"
+    },
+    "elsewhere": {
+      "title": "Não estás em Lisboa?",
+      "text": "Entra no Discord e recebe a newsletter a partir de qualquer ponto do país. Queres criar um grupo na tua cidade? Escreve-nos.",
+      "discord": "Entra no Discord",
+      "group": "Criar um grupo"
+    },
+    "questions": { "text": "Ainda não sabes onde te encaixas?", "link": "Escreve-nos" }
+  }
+}

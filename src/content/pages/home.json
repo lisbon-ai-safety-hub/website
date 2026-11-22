@@ -1,0 +1,78 @@
+{
+  "en": {
+    "title": "LAISH · Lisbon AI Safety Hub",
+    "description": "LAISH is Portugal's first community for AI safety. Free fellowships, events and career guidance in Lisbon.",
+    "hero": {
+      "tag": "Portugal's first community for AI safety",
+      "title": "The most important work of our time is keeping AI safe.",
+      "lede": "We give Portugal a voice in the development of advanced AI. Learn the field, meet the people, and find your way to contribute.",
+      "primary": "Get notified: next fellowship",
+      "secondary": "Join the Discord"
+    },
+    "why": {
+      "label": "Why Portugal",
+      "title": "A middle power with a voice in advanced AI.",
+      "items": [
+        { "title": "Talent", "text": "One of the most highly educated youth populations in Europe." },
+        { "title": "Tech community", "text": "A thriving tech sector and a large community of expats, remote workers and founders." },
+        { "title": "EU member", "text": "A place in the growing coalition of middle powers that can shape AI rules." }
+      ]
+    },
+    "safety": {
+      "label": "What is AI safety?",
+      "title": "Capability is compounding. Can we keep that power under human direction?",
+      "items": [
+        { "kicker": "Goals that hold", "title": "Alignment", "text": "Teaching capable systems to pursue what we mean, not only what we say, so their goals stay faithful as their power grows." },
+        { "kicker": "Seeing inside", "title": "Interpretability", "text": "Making neural networks readable, so we can audit them, predict failures and step in before harm spreads." },
+        { "kicker": "Power with rules", "title": "Governance", "text": "The norms, policies and institutions that decide who builds frontier AI, within what limits, and who is accountable." }
+      ]
+    },
+    "programmes": {
+      "label": "Programmes",
+      "title": "However far along you are, there is a next step.",
+      "all": "All programmes"
+    },
+    "events": { "label": "Upcoming", "title": "This term in Lisbon.", "note": "Events are in English unless stated. Portuguese speakers are always in the room." },
+    "writing": { "label": "Writing", "title": "Written by our fellows.", "all": "All writing" },
+    "stats": { "label": "So far" },
+    "network": { "label": "Working with" }
+  },
+  "pt": {
+    "title": "LAISH · Lisbon AI Safety Hub",
+    "description": "A LAISH é a primeira comunidade de segurança da IA em Portugal. Fellowships, eventos e orientação de carreira gratuitos em Lisboa.",
+    "hero": {
+      "tag": "A primeira comunidade de segurança da IA em Portugal",
+      "title": "O trabalho mais importante do nosso tempo é garantir uma IA segura.",
+      "lede": "Damos a Portugal uma voz no desenvolvimento da IA avançada. Aprende sobre a área, conhece as pessoas e descobre como podes contribuir.",
+      "primary": "Avisa-me: próximo fellowship",
+      "secondary": "Entra no Discord"
+    },
+    "why": {
+      "label": "Porquê Portugal",
+      "title": "Uma potência média com voz na IA avançada.",
+      "items": [
+        { "title": "Talento", "text": "Uma das populações jovens com maior nível de educação da Europa." },
+        { "title": "Comunidade tecnológica", "text": "Um setor tecnológico dinâmico e uma grande comunidade de expatriados, trabalhadores remotos e fundadores." },
+        { "title": "Membro da UE", "text": "Um lugar na coligação crescente de potências médias que podem moldar as regras da IA." }
+      ]
+    },
+    "safety": {
+      "label": "O que é a segurança da IA?",
+      "title": "As capacidades estão a acumular-se. Conseguimos manter esse poder sob direção humana?",
+      "items": [
+        { "kicker": "Objetivos que se mantêm", "title": "Alinhamento", "text": "Ensinar sistemas capazes a perseguir aquilo que pretendemos, e não apenas aquilo que dizemos, para que os seus objetivos se mantenham fiéis à medida que o seu poder cresce." },
+        { "kicker": "Ver por dentro", "title": "Interpretabilidade", "text": "Tornar as redes neuronais legíveis, para as podermos auditar, prever falhas e intervir antes que o dano se espalhe." },
+        { "kicker": "Poder com regras", "title": "Governação", "text": "As normas, políticas e instituições que decidem quem constrói IA de fronteira, com que limites e quem responde por ela." }
+      ]
+    },
+    "programmes": {
+      "label": "Programas",
+      "title": "Seja qual for o teu ponto de partida, há um próximo passo.",
+      "all": "Todos os programas"
+    },
+    "events": { "label": "Próximos eventos", "title": "Este trimestre em Lisboa.", "note": "Os eventos são em inglês, salvo indicação em contrário. Há sempre pessoas que falam português na sala." },
+    "writing": { "label": "Publicações", "title": "Escrito pelos nossos fellows.", "all": "Todas as publicações" },
+    "stats": { "label": "Até agora" },
+    "network": { "label": "Trabalhamos com" }
+  }
+}

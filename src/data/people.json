@@ -1,0 +1,56 @@
+{
+  "_note": "Team, advisors, volunteers and partner organisations. photo: a path under src/static/people/ (optional; initials show without it). Partners show only when confirmed is true.",
+  "team": [
+    { "name": "Caleb Price", "photo": "", "linkedin": "https://www.linkedin.com/in/calebeliprice/",
+      "en": { "role": "President", "text": "Leads LAISH's operations and management." },
+      "pt": { "role": "Presidente", "text": "Lidera as operações e a gestão da LAISH." } },
+    { "name": "Tânia Girão", "photo": "", "linkedin": "https://www.linkedin.com/in/taniagirao/",
+      "en": { "role": "Head of Communications", "text": "Shares programmes, events and research with the community." },
+      "pt": { "role": "Responsável pela Comunicação", "text": "Divulga programas, eventos e investigação junto da comunidade." } },
+    { "name": "João Bexiga", "photo": "", "linkedin": "https://www.linkedin.com/in/jbexiga/",
+      "en": { "role": "Head of Operations", "text": "Runs the systems behind programmes and events." },
+      "pt": { "role": "Responsável pelas Operações", "text": "Gere os sistemas por trás dos programas e eventos." } },
+    { "name": "Orlando Torres", "photo": "", "linkedin": "https://www.linkedin.com/in/orlandotorres1/",
+      "en": { "role": "Chief of Staff", "text": "Drives LAISH's priorities with the leadership team." },
+      "pt": { "role": "Chefe de Gabinete", "text": "Faz avançar as prioridades da LAISH com a equipa de liderança." } },
+    { "name": "Frederico Luz", "photo": "", "linkedin": "https://www.linkedin.com/in/fredericoluzai/",
+      "en": { "role": "Discussion Group Coordinator", "text": "Runs the paper and book discussion groups." },
+      "pt": { "role": "Coordenador dos Grupos de Discussão", "text": "Coordena os grupos de discussão de artigos e livros." } }
+  ],
+  "advisors": [
+    { "name": "Manon Kempermann", "en": "Program Director, Safe AI Germany", "pt": "Diretora de Programas, Safe AI Germany" },
+    { "name": "Tzu Kit Chan", "en": "Atlas Computing; incoming Head of Operations, Robocurve", "pt": "Atlas Computing; futuro Responsável de Operações, Robocurve" },
+    { "name": "Julien Sireau", "en": "Operations Manager, Oxford AI Safety Initiative", "pt": "Gestor de Operações, Oxford AI Safety Initiative" },
+    { "name": "Yaqoob Ahmad", "en": "Founder and Co-Director, Gen Stream", "pt": "Fundador e Codiretor, Gen Stream" },
+    { "name": "Sam Baskeyfield", "en": "Operations Associate, The Future Society", "pt": "Associado de Operações, The Future Society" },
+    { "name": "Alexander Müller", "en": "Director, Safe AI Netherlands", "pt": "Diretor, Safe AI Netherlands" }
+  ],
+  "volunteers": [
+    { "name": "Haimi Tefera", "en": "Outreach, Nova University", "pt": "Divulgação, Universidade Nova" },
+    { "name": "Alice Parrinha", "en": "Outreach, Instituto Superior Técnico", "pt": "Divulgação, Instituto Superior Técnico" }
+  ],
+  "affiliates": [
+    { "name": "AI Safety Barcelona", "url": "https://www.aisafetybcn.org/", "confirmed": true },
+    { "name": "iaS, Inteligencia Artificial Segura", "url": "https://aisafety.es/en/", "confirmed": true }
+  ],
+  "partners": [
+    { "name": "BlueDot Impact", "url": "https://bluedot.org/", "confirmed": false },
+    { "name": "Lens Academy", "url": "https://lensacademy.org/", "confirmed": false },
+    { "name": "ISCTE", "url": "https://www.iscte-iul.pt/", "confirmed": false },
+    { "name": "Nova SBE", "url": "https://www.novasbe.unl.pt/", "confirmed": false },
+    { "name": "Técnico", "url": "https://tecnico.ulisboa.pt/", "confirmed": false }
+  ],
+  "stats": {
+    "_note": "Shown on the home page only when every value is filled in.",
+    "items": [
+      { "value": null, "en": "Fellows trained", "pt": "Fellows formados" },
+      { "value": null, "en": "Cohorts run", "pt": "Edições realizadas" },
+      { "value": null, "en": "Events and lectures", "pt": "Eventos e palestras" },
+      { "value": null, "en": "Community members", "pt": "Membros da comunidade" }
+    ]
+  },
+  "photos": {
+    "_note": "Community photos for the home page and Events. Put files in src/static/photos/. The section is hidden while this list is empty.",
+    "items": []
+  }
+}

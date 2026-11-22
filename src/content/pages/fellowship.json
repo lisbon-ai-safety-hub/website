@@ -1,0 +1,216 @@
+{
+  "en": {
+    "title": "Foundations of AI Safety Fellowship · LAISH",
+    "description": "A free, in-person, 8-week fellowship in Lisbon on the risks of advanced AI and how to help. No technical background needed.",
+    "hero": {
+      "tag": "Foundations of AI Safety Fellowship",
+      "title": "A grounding in AI safety, in eight weeks.",
+      "lede": "A free, in-person fellowship in Lisbon for students and working professionals. Learn the risks of advanced AI and the practical ways you can help. No technical background needed.",
+      "status": "Applications closed · Next round: [Month 2027]",
+      "primary": "Tell me when applications open",
+      "secondary": "Read the fellows' reflections"
+    },
+    "facts": {
+      "label": "At a glance",
+      "items": [
+        ["Duration", "8 weeks"],
+        ["Format", "In person, one 2-hour evening session a week"],
+        ["Where", "Lisbon, about 10 minutes' walk from Entrecampos station and ISCTE"],
+        ["Workload", "About 2 hours of reading a week, plus the session"],
+        ["Cost", "Free"],
+        ["Certificate", "From Lens Academy, when you attend 6 of 8 sessions"],
+        ["Next round", "[Month 2027]. Applications [date] to [date]"]
+      ]
+    },
+    "weeks": {
+      "label": "What you will explore",
+      "title": "Eight weeks, from capabilities to your next step.",
+      "intro": "Six discussion weeks and two guest lectures from people who already work in AI safety. Then an optional co-working and career day.",
+      "guest": "Guest lecture",
+      "note": "Week plan from the autumn 2026 cohort. [Confirm the 2027 plan.]",
+      "items": [
+        { "title": "Capabilities", "text": "How AI systems are built, measured and forecast." },
+        { "title": "Risks", "text": "Misuse, misalignment and systemic risks, and the first strategies against them." },
+        { "title": "Strategies and governance", "text": "Defence in depth, compute governance and international coordination." },
+        { "title": "Evaluations", "text": "Benchmarks, dangerous-capability tests and a deployment-board simulation." },
+        { "title": "Europe", "text": "The EU AI Act, verification and the role of middle powers.", "guest": true },
+        { "title": "Specification gaming", "text": "How systems pursue the wrong goal, and goal misgeneralisation." },
+        { "title": "Safety cases", "text": "Red-team a lab's safety plan, then choose your first step." },
+        { "title": "Careers", "text": "Roles in AI safety and how to make the move.", "guest": true }
+      ]
+    },
+    "how": {
+      "label": "How a session works",
+      "title": "Less lecture, more argument.",
+      "intro": "Come with the reading done, ready to discuss and debate. Bring a laptop or tablet. An accountability buddy keeps you on track between sessions.",
+      "items": [
+        { "title": "Small tables", "text": "You work in tables of 3 or 4 and change tables every round, so you meet everyone in the cohort." },
+        { "title": "Simulations and debates", "text": "Negotiate an international AI agreement. Sit on a lab's deployment board. Argue both sides of a question." },
+        { "title": "Readings with a tutor", "text": "The readings run on Lens Academy, based on the AI Safety Atlas, with an AI tutor for any term you get stuck on." }
+      ]
+    },
+    "audiences": {
+      "label": "Why join",
+      "title": "Two ways to make a difference.",
+      "items": [
+        { "title": "For students", "text": "Choose your direction early. Learn where AI safety needs people, and point your degree, thesis or research at the problems that matter most." },
+        { "title": "For professionals", "text": "Use the skills you already have. Change how your organisation builds or uses AI, or move into an AI safety role." }
+      ],
+      "outreach": "We reach out to students at ISCTE, Nova SBE and Técnico. Everyone is welcome, from any university or none."
+    },
+    "who": {
+      "label": "Who it is for",
+      "title": "Students and professionals in Lisbon.",
+      "items": ["You live in Lisbon, or you move here before the start.", "You study or work in any field. Curiosity is enough.", "You can come in person every week."]
+    },
+    "know": {
+      "label": "Good to know",
+      "title": "Free, in person, in English.",
+      "items": ["There is no remote option.", "We cannot cover travel or accommodation.", "Sessions are in English. [Confirm.]"]
+    },
+    "after": {
+      "label": "After the fellowship",
+      "title": "The end of the course is the start.",
+      "items": [
+        { "title": "Certificate", "text": "A certificate of completion from Lens Academy." },
+        { "title": "A place in the community", "text": "Stay part of LAISH: the Discord, our events and the people from your cohort." },
+        { "title": "Career guidance, for life", "text": "One-to-one advice on courses, fellowships and roles in AI safety." },
+        { "title": "Free events, for life", "text": "Free entry to all LAISH events and lectures." },
+        { "title": "Mentored projects", "text": "Projects in AI safety with a mentor, for selected graduates. In development." },
+        { "title": "Write with us", "text": "Publish your essays and reflections on the LAISH Substack." }
+      ]
+    },
+    "reflections": {
+      "label": "From the 2026 fellows",
+      "title": "Read what the cohort wrote.",
+      "series": "LAISH Fellowship Reflections",
+      "quote": "[Quote from a 2026 fellow, with consent.]",
+      "quoteBy": "[Name], [study or job]"
+    },
+    "faq": {
+      "label": "Frequently asked",
+      "title": "Questions about the fellowship.",
+      "items": [
+        ["Who is this fellowship for?", "Students and working professionals who live in Lisbon and want to learn about AI safety and how to contribute. If you are not based in Lisbon, or not moving here before the start, this course is not right for you. We are happy to recommend other options."],
+        ["Where is the fellowship based?", "All sessions are in person in Lisbon, about a 10-minute walk from Entrecampos station and ISCTE."],
+        ["Can I participate remotely?", "No. All participants attend in person."],
+        ["Does LAISH offer financial support?", "Not at this time. We cannot cover accommodation, travel or other costs. Participants already live in Lisbon and cover their own travel."],
+        ["What does the coursework look like?", "The material is based on the AI Safety Atlas, on a platform made by Lens Academy. Expect about 2 hours of work a week plus a 2-hour session with guided discussions and activities. Six weeks follow this format; two weeks are guest lectures from AI safety experts."],
+        ["What happens after I complete the course?", "You receive a certificate from Lens Academy and stay part of the LAISH community, with career guidance for life and free entry to our events. We are building mentored projects for selected graduates. The end of the fellowship is the start of our work together."]
+      ]
+    },
+    "cta": {
+      "label": "Next round",
+      "title": "Find out when the next round opens.",
+      "text": "Subscribe to the newsletter. We announce every new round there first.",
+      "button": "Notify me"
+    }
+  },
+  "pt": {
+    "title": "Fellowship em Fundamentos da Segurança da IA · LAISH",
+    "description": "Um fellowship gratuito e presencial de 8 semanas em Lisboa sobre os riscos da IA avançada e como ajudar. Não precisas de conhecimentos técnicos.",
+    "hero": {
+      "tag": "Fellowship em Fundamentos da Segurança da IA",
+      "title": "Uma base em segurança da IA, em oito semanas.",
+      "lede": "Um fellowship gratuito e presencial em Lisboa para estudantes e profissionais. Conhece os riscos da IA avançada e as formas práticas de ajudar. Não precisas de conhecimentos técnicos.",
+      "status": "Candidaturas encerradas · Próxima edição: [mês de 2027]",
+      "primary": "Avisa-me quando abrirem as candidaturas",
+      "secondary": "Lê as reflexões dos fellows"
+    },
+    "facts": {
+      "label": "Em resumo",
+      "items": [
+        ["Duração", "8 semanas"],
+        ["Formato", "Presencial, uma sessão de 2 horas ao fim do dia, por semana"],
+        ["Local", "Lisboa, a cerca de 10 minutos a pé da estação de Entrecampos e do ISCTE"],
+        ["Carga de trabalho", "Cerca de 2 horas de leitura por semana, mais a sessão"],
+        ["Custo", "Gratuito"],
+        ["Certificado", "Da Lens Academy, se participares em 6 das 8 sessões"],
+        ["Próxima edição", "[mês de 2027]. Candidaturas de [data] a [data]"]
+      ]
+    },
+    "weeks": {
+      "label": "O que vais explorar",
+      "title": "Oito semanas, das capacidades ao teu próximo passo.",
+      "intro": "Seis semanas de discussão e duas palestras de pessoas que já trabalham em segurança da IA. No fim, um dia opcional de trabalho conjunto e orientação de carreira.",
+      "guest": "Palestra convidada",
+      "note": "Plano semanal da edição do outono de 2026. [Confirmar o plano de 2027.]",
+      "items": [
+        { "title": "Capacidades", "text": "Como os sistemas de IA são construídos, medidos e previstos." },
+        { "title": "Riscos", "text": "Uso indevido, desalinhamento e riscos sistémicos, e as primeiras estratégias para os enfrentar." },
+        { "title": "Estratégias e governação", "text": "Defesa em profundidade, governação da computação e coordenação internacional." },
+        { "title": "Avaliações", "text": "Benchmarks, testes de capacidades perigosas e uma simulação de um conselho de lançamento." },
+        { "title": "Europa", "text": "O Regulamento Europeu da IA, a verificação e o papel das potências médias.", "guest": true },
+        { "title": "Specification gaming", "text": "Como os sistemas perseguem o objetivo errado, e a generalização errada de objetivos." },
+        { "title": "Safety cases", "text": "Testa a fundo o plano de segurança de um laboratório e escolhe o teu primeiro passo." },
+        { "title": "Carreiras", "text": "Funções em segurança da IA e como fazer a transição.", "guest": true }
+      ]
+    },
+    "how": {
+      "label": "Como funciona uma sessão",
+      "title": "Menos aula, mais debate.",
+      "intro": "Vem com a leitura feita, pronto para discutir e debater. Traz um portátil ou tablet. Um colega de acompanhamento ajuda-te a manter o ritmo entre sessões.",
+      "items": [
+        { "title": "Mesas pequenas", "text": "Trabalhas em mesas de 3 ou 4 pessoas e mudas de mesa a cada ronda, para conheceres todo o grupo." },
+        { "title": "Simulações e debates", "text": "Negoceia um acordo internacional sobre IA. Senta-te no conselho de lançamento de um laboratório. Defende os dois lados de uma questão." },
+        { "title": "Leituras com tutor", "text": "As leituras estão na Lens Academy, com base no AI Safety Atlas, e um tutor de IA ajuda-te com qualquer termo difícil." }
+      ]
+    },
+    "audiences": {
+      "label": "Porquê participar",
+      "title": "Duas formas de fazer a diferença.",
+      "items": [
+        { "title": "Para estudantes", "text": "Escolhe o teu rumo cedo. Descobre onde a segurança da IA precisa de pessoas e orienta o teu curso, a tua tese ou a tua investigação para os problemas que mais importam." },
+        { "title": "Para profissionais", "text": "Usa as competências que já tens. Muda a forma como a tua organização desenvolve ou usa IA, ou passa para uma função em segurança da IA." }
+      ],
+      "outreach": "Divulgamos o fellowship junto de estudantes do ISCTE, da Nova SBE e do Técnico. Todas as pessoas são bem-vindas, de qualquer universidade ou de nenhuma."
+    },
+    "who": {
+      "label": "Para quem é",
+      "title": "Estudantes e profissionais em Lisboa.",
+      "items": ["Vives em Lisboa, ou mudas-te para cá antes do início.", "Estudas ou trabalhas em qualquer área. Basta curiosidade.", "Podes vir presencialmente todas as semanas."]
+    },
+    "know": {
+      "label": "Bom saber",
+      "title": "Gratuito, presencial, em inglês.",
+      "items": ["Não há opção remota.", "Não conseguimos cobrir despesas de viagem ou alojamento.", "As sessões são em inglês. [Confirmar.]"]
+    },
+    "after": {
+      "label": "Depois do fellowship",
+      "title": "O fim do curso é o começo.",
+      "items": [
+        { "title": "Certificado", "text": "Um certificado de conclusão da Lens Academy." },
+        { "title": "Um lugar na comunidade", "text": "Continuas a fazer parte da LAISH: o Discord, os nossos eventos e as pessoas da tua edição." },
+        { "title": "Orientação de carreira, para sempre", "text": "Aconselhamento individual sobre cursos, fellowships e funções em segurança da IA." },
+        { "title": "Eventos gratuitos, para sempre", "text": "Entrada gratuita em todos os eventos e palestras da LAISH." },
+        { "title": "Projetos com mentoria", "text": "Projetos em segurança da IA com um mentor, para diplomados selecionados. Em desenvolvimento." },
+        { "title": "Escreve connosco", "text": "Publica os teus ensaios e reflexões no Substack da LAISH." }
+      ]
+    },
+    "reflections": {
+      "label": "Dos fellows de 2026",
+      "title": "Lê o que o grupo escreveu.",
+      "series": "LAISH Fellowship Reflections",
+      "quote": "[Citação de um fellow de 2026, com consentimento.]",
+      "quoteBy": "[Nome], [estudos ou profissão]"
+    },
+    "faq": {
+      "label": "Perguntas frequentes",
+      "title": "Dúvidas sobre o fellowship.",
+      "items": [
+        ["Para quem é este fellowship?", "Para estudantes e profissionais que vivem em Lisboa e querem aprender sobre segurança da IA e sobre como contribuir. Se não vives em Lisboa, nem te vais mudar antes do início, este curso não é para ti. Teremos todo o gosto em recomendar outras opções."],
+        ["Onde decorre o fellowship?", "Todas as sessões são presenciais em Lisboa, a cerca de 10 minutos a pé da estação de Entrecampos e do ISCTE."],
+        ["Posso participar à distância?", "Não. Todas as pessoas participam presencialmente."],
+        ["A LAISH dá apoio financeiro?", "De momento, não. Não conseguimos cobrir alojamento, viagens ou outras despesas. Quem participa já vive em Lisboa e paga as suas deslocações."],
+        ["Como é o trabalho do curso?", "Os materiais baseiam-se no AI Safety Atlas, numa plataforma da Lens Academy. Conta com cerca de 2 horas de trabalho por semana e uma sessão de 2 horas com discussões e atividades guiadas. Seis semanas seguem este formato; duas são palestras de especialistas em segurança da IA."],
+        ["O que acontece depois de concluir o curso?", "Recebes um certificado da Lens Academy e continuas a fazer parte da comunidade LAISH, com orientação de carreira para sempre e entrada gratuita nos nossos eventos. Estamos a preparar projetos com mentoria para diplomados selecionados. O fim do fellowship é o início do nosso trabalho em conjunto."]
+      ]
+    },
+    "cta": {
+      "label": "Próxima edição",
+      "title": "Sabe quando abre a próxima edição.",
+      "text": "Subscreve a newsletter. Anunciamos lá cada nova edição em primeiro lugar.",
+      "button": "Avisa-me"
+    }
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "_note": "The LAISH white paper (June 2026) as a web page. The English text is the original, word for word. The Portuguese text is a translation (needs native review). If the Google Doc changes, update this file.",
+  "en": {
+    "title": "White paper · LAISH",
+    "description": "The LAISH white paper (June 2026): why Portugal needs an AI safety hub, our strategy, who we serve and our theory of change.",
+    "tag": "White paper · June 2026",
+    "heading": "LAISH White Paper",
+    "facts": {
+      "label": "About this document",
+      "items": [
+        ["Published", "June 2026"],
+        ["President", "Caleb Elijah Price"],
+        ["Committee", "João Bexiga, Tânia Girão, Frederico Luz, Orlando Torres"],
+        ["Language", "English (original)"]
+      ]
+    },
+    "toc": "On this page",
+    "overview": {
+      "title": "Overview",
+      "paras": [
+        "The Lisbon Artificial Intelligence Safety Hub (LAISH) is a Portugal-based group focused on addressing the most significant risks from advanced AI systems. The project targets students and working professionals to teach them the basics of technical AI and AI safety and governance and steer them towards actions and careers that can make a meaningful impact on mitigating the worst outcomes from AI development. LAISH runs community events, courses and career counseling to get people into AI safety roles."
+      ]
+    },
+    "significance": {
+      "title": "Significance",
+      "paras": [
+        "AI is advancing at a rapid pace, with capabilities and benchmark measurements accelerating at an unexpected rate. Many experts warn that advanced AI could pose catastrophic or even existential risks to humanity due to misuse and misalignment leading to the development of bio and nuclear weapons, power consolidation and loss of control. In order to avoid the worst outcomes, humanity needs to develop the proper laws, regulations and technical safety standards now before it is too late.",
+        "Portugal does not have any AI safety project and therefore lacks a voice and ability to contribute to these safety measures. Portugal, with a population of over 10 million, a highly educated working class and a large community of digital nomads and expats, has potential to play a role in AI safety. Portugal has an Effective Altruism (EA) community which can contribute to the project. The organization can also benefit from being a member of the European Network for AI Safety (ENAIS)."
+      ]
+    },
+    "strategy": {
+      "title": "Strategy",
+      "items": [
+        { "title": "Fellowship", "text": "LAISH runs an 8-week fellowship based on the course material from AI Safety Atlas. The course covers AI fundamentals, risks, strategies to mitigate risks, and how to get involved. Graduates will receive foundational knowledge, access to the LAISH community, a certificate of completion and continued support from LAISH. Following the course, graduates are aided with career guidance to continue on to additional AI safety fellowships, studies in AI safety, and careers and volunteering opportunities in impactful areas." },
+        { "title": "Community events", "text": "LAISH organizes community events, both structured and unstructured, to build a community of AI safety in Lisbon. These events include film screenings, group discussions, games nights, and simple get-togethers. Weekly events facilitate community building and motivate participants to continue working on AI safety, and provide a platform to discuss AI safety." },
+        { "title": "Guest lectures", "text": "LAISH organizes guest lectures from industry professionals working on technical safety, governance and on the EU AI Act, hosted at ISCTE University Institute of Lisbon. Lectures will be open to the public." },
+        { "title": "Newsletter", "text": "LAISH produces a monthly newsletter on frontier topics in AI safety and development, disseminated through the ISCTE student network. The newsletter will synthesize complex topics into a short, easy to digest format to keep participants up to date. It will also include relevant AI safety opportunities that subscribers can apply to." }
+      ]
+    },
+    "target": {
+      "title": "Target",
+      "paras": [
+        "LAISH targets students at the various Lisbon universities including ISCTE University Institute of Lisbon, Nova School of Business and Economics and Técnico ULisboa - Universidade de Lisboa, universities with a variety of technical, policy and social science students, but lacking in AI safety groups. LAISH also targets working professionals with an interest in AI safety. Students can effect significant change by deciding on AI safety careers early and focusing their university research on AI safety topics. Working professionals have the opportunity to impact change in their organization or make a career move to AI safety.",
+        "LAISH targets individuals from a diverse background as it is inclusive to anyone who is interested in AI safety, not only technical individuals. We want people who have a basic understanding of the most significant existential risks and want to learn more and get involved."
+      ]
+    },
+    "theory": {
+      "title": "Theory of Change",
+      "steps": [
+        "LAISH runs a fellowship and organizes community events to educate students and professionals and steer them to AI safety roles",
+        "This builds the local talent capacity in Portugal and motivates people towards AI safety roles",
+        "A community of AI safety will then exist in Portugal which can coordinate with other AI safety groups",
+        "The overall global effort to mitigate the risks of advanced AI will be strengthened, leading to a higher chance of success"
+      ]
+    },
+    "involved": {
+      "title": "Getting Involved",
+      "paras": [
+        "Individuals interested in taking part in the fellowship or signing up to the newsletter can do so at [www.lisbonaisafetyhub.org](/). Those interested in supporting the project and helping to organize and host events, or lecturers interested in presenting a topic should contact [contact@lisbonaisafetyhub.org](mailto:contact@lisbonaisafetyhub.org?subject=%5BLAISH%5D%20Getting%20involved)"
+      ],
+      "buttons": { "fellowship": "The fellowship", "newsletter": "Subscribe to the newsletter", "contact": "Write to us" }
+    },
+    "original": {
+      "label": "Source",
+      "title": "Original document",
+      "text": "LAISH White Paper, June 2026. Google Docs, in English."
+    }
+  },
+  "pt": {
+    "title": "Livro branco · LAISH",
+    "description": "O livro branco da LAISH (junho de 2026): porque é que Portugal precisa de um hub de segurança da IA, a nossa estratégia, a quem nos dirigimos e a nossa teoria da mudança.",
+    "tag": "Livro branco · junho de 2026",
+    "heading": "Livro Branco da LAISH",
+    "facts": {
+      "label": "Sobre este documento",
+      "items": [
+        ["Publicado", "Junho de 2026"],
+        ["Presidente", "Caleb Elijah Price"],
+        ["Comissão", "João Bexiga, Tânia Girão, Frederico Luz, Orlando Torres"],
+        ["Idioma", "Tradução do original em inglês"]
+      ]
+    },
+    "toc": "Nesta página",
+    "overview": {
+      "title": "Resumo",
+      "paras": [
+        "O Lisbon Artificial Intelligence Safety Hub (LAISH) é um grupo sediado em Portugal que se dedica aos riscos mais significativos dos sistemas de IA avançada. O projeto dirige-se a estudantes e profissionais, para lhes ensinar os fundamentos técnicos da IA e da segurança e governação da IA, e para os orientar para ações e carreiras com impacto real na mitigação dos piores resultados do desenvolvimento da IA. A LAISH organiza eventos comunitários, cursos e aconselhamento de carreira para levar pessoas a funções em segurança da IA."
+      ]
+    },
+    "significance": {
+      "title": "Relevância",
+      "paras": [
+        "A IA está a avançar a um ritmo rápido, com as capacidades e os resultados em benchmarks a acelerar a uma velocidade inesperada. Muitos especialistas alertam que a IA avançada pode representar riscos catastróficos ou mesmo existenciais para a humanidade, devido ao uso indevido e ao desalinhamento, que podem levar ao desenvolvimento de armas biológicas e nucleares, à concentração de poder e à perda de controlo. Para evitar os piores resultados, a humanidade precisa de criar agora as leis, a regulação e as normas técnicas de segurança adequadas, antes que seja tarde demais.",
+        "Portugal não tem nenhum projeto de segurança da IA e, por isso, não tem voz nem capacidade de contribuir para estas medidas de segurança. Portugal, com uma população de mais de 10 milhões de pessoas, uma população ativa altamente qualificada e uma grande comunidade de nómadas digitais e expatriados, tem potencial para desempenhar um papel na segurança da IA. Portugal tem uma comunidade de Altruísmo Eficaz (EA) que pode contribuir para o projeto. A organização pode também beneficiar de ser membro da European Network for AI Safety (ENAIS)."
+      ]
+    },
+    "strategy": {
+      "title": "Estratégia",
+      "items": [
+        { "title": "Fellowship", "text": "A LAISH organiza um fellowship de 8 semanas baseado nos materiais do AI Safety Atlas. O curso aborda os fundamentos da IA, os riscos, as estratégias para os mitigar e as formas de participar. Quem conclui o curso recebe conhecimentos fundamentais, acesso à comunidade LAISH, um certificado de conclusão e apoio contínuo da LAISH. Depois do curso, os participantes recebem orientação de carreira para seguirem para outros fellowships em segurança da IA, estudos em segurança da IA, e oportunidades de carreira e de voluntariado em áreas de impacto." },
+        { "title": "Eventos comunitários", "text": "A LAISH organiza eventos comunitários, estruturados e informais, para construir uma comunidade de segurança da IA em Lisboa. Estes eventos incluem exibições de filmes, discussões em grupo, noites de jogos e encontros simples. Os eventos semanais promovem a construção da comunidade, motivam os participantes a continuar a trabalhar em segurança da IA e oferecem um espaço para discutir o tema." },
+        { "title": "Palestras de convidados", "text": "A LAISH organiza palestras de convidados, profissionais que trabalham em segurança técnica, governação e no Regulamento Europeu da IA (EU AI Act), no ISCTE, Instituto Universitário de Lisboa. As palestras serão abertas ao público." },
+        { "title": "Newsletter", "text": "A LAISH produz uma newsletter mensal sobre temas de fronteira em segurança e desenvolvimento da IA, divulgada através da rede de estudantes do ISCTE. A newsletter resumirá temas complexos num formato curto e fácil de ler, para manter os participantes atualizados. Incluirá também oportunidades relevantes em segurança da IA a que os subscritores se podem candidatar." }
+      ]
+    },
+    "target": {
+      "title": "Público-alvo",
+      "paras": [
+        "A LAISH dirige-se a estudantes das várias universidades de Lisboa, incluindo o ISCTE, Instituto Universitário de Lisboa, a Nova School of Business and Economics e o Técnico, Universidade de Lisboa: universidades com estudantes de áreas técnicas, de políticas públicas e de ciências sociais, mas sem grupos de segurança da IA. A LAISH dirige-se também a profissionais com interesse em segurança da IA. Os estudantes podem gerar uma mudança significativa se escolherem cedo uma carreira em segurança da IA e orientarem a sua investigação universitária para temas de segurança da IA. Os profissionais têm a oportunidade de promover mudanças na sua organização ou de mudar de carreira para a segurança da IA.",
+        "A LAISH dirige-se a pessoas de diferentes percursos, porque é inclusiva para qualquer pessoa interessada em segurança da IA, e não apenas para perfis técnicos. Procuramos pessoas com uma compreensão básica dos riscos existenciais mais significativos que queiram aprender mais e participar."
+      ]
+    },
+    "theory": {
+      "title": "Teoria da mudança",
+      "steps": [
+        "A LAISH organiza um fellowship e eventos comunitários para formar estudantes e profissionais e orientá-los para funções em segurança da IA",
+        "Isto desenvolve a capacidade de talento local em Portugal e motiva as pessoas para funções em segurança da IA",
+        "Passa a existir em Portugal uma comunidade de segurança da IA, capaz de se coordenar com outros grupos de segurança da IA",
+        "O esforço global para mitigar os riscos da IA avançada sai reforçado, com uma maior probabilidade de sucesso"
+      ]
+    },
+    "involved": {
+      "title": "Como participar",
+      "paras": [
+        "Quem quiser participar no fellowship ou subscrever a newsletter pode fazê-lo em [www.lisbonaisafetyhub.org](/pt/). Quem quiser apoiar o projeto e ajudar a organizar e acolher eventos, ou oradores interessados em apresentar um tema, deve escrever para [contact@lisbonaisafetyhub.org](mailto:contact@lisbonaisafetyhub.org?subject=%5BLAISH%5D%20Getting%20involved)."
+      ],
+      "buttons": { "fellowship": "O fellowship", "newsletter": "Subscrever a newsletter", "contact": "Escreve-nos" }
+    },
+    "original": {
+      "label": "Fonte",
+      "title": "Documento original",
+      "text": "LAISH White Paper, junho de 2026. Google Docs, em inglês."
+    }
+  }
+}

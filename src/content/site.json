@@ -1,0 +1,370 @@
+{
+  "_note": "Site-wide settings and interface text. Each text has an English (en) and a Portuguese (pt) version.",
+  "draft": true,
+  "siteUrl": "https://www.lisbonaisafetyhub.org",
+  "email": "contact@lisbonaisafetyhub.org",
+  "links": {
+    "discord": "https://discord.gg/ja5vK8ZMyJ",
+    "instagram": "https://www.instagram.com/lisbonaisafety",
+    "linkedin": "https://www.linkedin.com/company/lisbonaisafetyhub",
+    "substack": "https://lisbonaisafetyhub.substack.com",
+    "substackSubscribe": "https://lisbonaisafetyhub.substack.com/subscribe",
+    "careerForm": "https://airtable.com/appgHI3XHb2uFp5Li/pagNrrOMzUm6R8Qf3/form",
+    "calendar": "[Luma calendar link]",
+    "fellowshipNotify": "https://lisbonaisafetyhub.substack.com/subscribe",
+    "whitePaper": "https://docs.google.com/document/d/1t27Gq56E-4fQsDUuOl76H4VB27YSqO4aHDgm8qmM-NY/edit?usp=sharing",
+    "lensCourse": "https://lensacademy.org/courses/lisbon-fellowship/module/ai-safety-atlas-capabilities#introduction"
+  },
+  "en": {
+    "siteName": "LAISH · Lisbon AI Safety Hub",
+    "siteShort": "LAISH",
+    "orgName": "Lisbon AI Safety Hub",
+    "defaultDescription": "LAISH is Portugal's first community for AI safety. Free fellowships, events and career guidance in Lisbon.",
+    "skip": "Skip to content",
+    "menu": "Menu",
+    "nav": {
+      "programmes": "Programmes",
+      "events": "Events",
+      "resources": "Resources",
+      "writing": "Writing",
+      "about": "About"
+    },
+    "getInvolved": "Get involved",
+    "langSwitch": {
+      "label": "Language",
+      "en": "EN",
+      "pt": "PT",
+      "enFull": "English",
+      "ptFull": "Português"
+    },
+    "footer": {
+      "tagline": "Lisbon AI Safety Hub. The community for AI safety in Portugal.",
+      "volunteer": "Run by volunteers in Lisbon.",
+      "explore": "Explore",
+      "connect": "Connect",
+      "legal": "Legal",
+      "contact": "Contact and FAQ",
+      "privacy": "Privacy",
+      "conduct": "Code of conduct",
+      "fellowship": "Fellowship"
+    },
+    "newsletter": {
+      "label": "Newsletter · EN and PT",
+      "title": "One email a month.",
+      "text": "Frontier AI news, plus jobs and fellowships you can apply to.",
+      "email": "Email address",
+      "button": "Subscribe",
+      "note": "You finish signing up on Substack. Unsubscribe at any time."
+    },
+    "events": {
+      "attend": "Attend",
+      "nextUp": "Next up",
+      "free": "Free",
+      "allEvents": "All events",
+      "noUpcoming": "No events are scheduled yet. Subscribe to the calendar to hear first.",
+      "categories": {
+        "all": "All",
+        "screening": "Screenings",
+        "discussion": "Discussion groups",
+        "lecture": "Lectures",
+        "social": "Socials"
+      }
+    },
+    "copy": "Copy",
+    "copied": "Copied",
+    "readMore": "Read more",
+    "onSubstack": "Read on Substack",
+    "draftNotice": "Draft: text in [brackets] still needs confirmation.",
+    "submenu": {
+      "programmes": [
+        {
+          "label": "All programmes",
+          "text": "From your first event to a new career.",
+          "href": "programmes"
+        },
+        {
+          "label": "Fellowship",
+          "text": "8 weeks on the foundations of AI safety.",
+          "href": "fellowship"
+        },
+        {
+          "label": "Events and lectures",
+          "text": "Screenings, talks and socials, open to all.",
+          "href": "events"
+        },
+        {
+          "label": "Discussion groups",
+          "text": "Read and discuss new papers together.",
+          "href": "events#formats"
+        },
+        {
+          "label": "Career guidance",
+          "text": "Free one-to-one advice on your next step.",
+          "href": "careerForm"
+        },
+        {
+          "label": "Find your path",
+          "text": "Which programme fits you.",
+          "href": "getinvolved"
+        }
+      ],
+      "events": [
+        {
+          "label": "Upcoming events",
+          "text": "Dates, places and how to attend.",
+          "href": "events#upcoming"
+        },
+        {
+          "label": "Event formats",
+          "text": "Screenings, discussions, lectures and socials.",
+          "href": "events#formats"
+        },
+        {
+          "label": "Suggest an event",
+          "text": "Propose a talk, a film or a topic.",
+          "href": "mail:Events"
+        }
+      ],
+      "resources": [
+        {
+          "label": "All resources",
+          "text": "Our reading list, by topic.",
+          "href": "resources"
+        }
+      ],
+      "resourcesCount": "{n} resources",
+      "writing": [
+        {
+          "label": "All writing",
+          "text": "Essays and reflections by our fellows.",
+          "href": "writing"
+        },
+        {
+          "label": "Fellowship reflections",
+          "text": "Fellows write about their weeks.",
+          "href": "fellowship#reflections"
+        },
+        {
+          "label": "Vision and white paper",
+          "text": "Where LAISH is going, and why.",
+          "href": "writing#docs"
+        },
+        {
+          "label": "Substack",
+          "text": "Subscribe and read the archive.",
+          "href": "substack"
+        }
+      ],
+      "about": [
+        {
+          "label": "Mission",
+          "text": "Why AI safety, and why Portugal.",
+          "href": "about#mission"
+        },
+        {
+          "label": "Team and advisors",
+          "text": "The people behind LAISH.",
+          "href": "about#team"
+        },
+        {
+          "label": "Network",
+          "text": "Our affiliates and partners.",
+          "href": "about#network"
+        },
+        {
+          "label": "Vision",
+          "text": "Our plan for AI safety in Portugal.",
+          "href": "vision"
+        },
+        {
+          "label": "White paper",
+          "text": "The June 2026 white paper.",
+          "href": "whitepaper"
+        },
+        {
+          "label": "Code of conduct",
+          "text": "How we treat each other.",
+          "href": "conduct"
+        }
+      ],
+      "nextEvent": "Next event"
+    }
+  },
+  "pt": {
+    "siteName": "LAISH · Lisbon AI Safety Hub",
+    "siteShort": "LAISH",
+    "orgName": "Lisbon AI Safety Hub",
+    "defaultDescription": "A LAISH é a primeira comunidade de segurança da IA em Portugal. Fellowships, eventos e orientação de carreira gratuitos em Lisboa.",
+    "skip": "Saltar para o conteúdo",
+    "menu": "Menu",
+    "nav": {
+      "programmes": "Programas",
+      "events": "Eventos",
+      "resources": "Recursos",
+      "writing": "Publicações",
+      "about": "Sobre"
+    },
+    "getInvolved": "Participa",
+    "langSwitch": {
+      "label": "Idioma",
+      "en": "EN",
+      "pt": "PT",
+      "enFull": "English",
+      "ptFull": "Português"
+    },
+    "footer": {
+      "tagline": "Lisbon AI Safety Hub. A comunidade de segurança da IA em Portugal.",
+      "volunteer": "Gerida por voluntários em Lisboa.",
+      "explore": "Explorar",
+      "connect": "Contactos",
+      "legal": "Legal",
+      "contact": "Contacto e perguntas frequentes",
+      "privacy": "Privacidade",
+      "conduct": "Código de conduta",
+      "fellowship": "Fellowship"
+    },
+    "newsletter": {
+      "label": "Newsletter · EN e PT",
+      "title": "Um email por mês.",
+      "text": "Notícias sobre IA de fronteira, e ainda empregos e fellowships a que te podes candidatar.",
+      "email": "Endereço de email",
+      "button": "Subscrever",
+      "note": "Concluis a inscrição no Substack. Podes cancelar a qualquer momento."
+    },
+    "events": {
+      "attend": "Inscrever",
+      "nextUp": "Próximo evento",
+      "free": "Gratuito",
+      "allEvents": "Todos os eventos",
+      "noUpcoming": "Ainda não há eventos marcados. Subscreve o calendário para saberes primeiro.",
+      "categories": {
+        "all": "Todos",
+        "screening": "Filmes",
+        "discussion": "Grupos de discussão",
+        "lecture": "Palestras",
+        "social": "Convívios"
+      }
+    },
+    "copy": "Copiar",
+    "copied": "Copiado",
+    "readMore": "Ler mais",
+    "onSubstack": "Ler no Substack",
+    "draftNotice": "Rascunho: o texto entre [parênteses] ainda precisa de confirmação.",
+    "submenu": {
+      "programmes": [
+        {
+          "label": "Todos os programas",
+          "text": "Do primeiro evento a uma nova carreira.",
+          "href": "programmes"
+        },
+        {
+          "label": "Fellowship",
+          "text": "8 semanas sobre os fundamentos da segurança da IA.",
+          "href": "fellowship"
+        },
+        {
+          "label": "Eventos e palestras",
+          "text": "Exibições, palestras e encontros, abertos a todos.",
+          "href": "events"
+        },
+        {
+          "label": "Grupos de discussão",
+          "text": "Lemos e discutimos novos papers em conjunto.",
+          "href": "events#formats"
+        },
+        {
+          "label": "Orientação de carreira",
+          "text": "Aconselhamento individual e gratuito sobre o teu próximo passo.",
+          "href": "careerForm"
+        },
+        {
+          "label": "Encontra o teu caminho",
+          "text": "Que programa é para ti.",
+          "href": "getinvolved"
+        }
+      ],
+      "events": [
+        {
+          "label": "Próximos eventos",
+          "text": "Datas, locais e como participar.",
+          "href": "events#upcoming"
+        },
+        {
+          "label": "Formatos",
+          "text": "Exibições, discussões, palestras e encontros.",
+          "href": "events#formats"
+        },
+        {
+          "label": "Sugere um evento",
+          "text": "Propõe uma palestra, um filme ou um tema.",
+          "href": "mail:Events"
+        }
+      ],
+      "resources": [
+        {
+          "label": "Todos os recursos",
+          "text": "A nossa lista de leituras, por tema.",
+          "href": "resources"
+        }
+      ],
+      "resourcesCount": "{n} recursos",
+      "writing": [
+        {
+          "label": "Todas as publicações",
+          "text": "Ensaios e reflexões dos nossos fellows.",
+          "href": "writing"
+        },
+        {
+          "label": "Reflexões do fellowship",
+          "text": "Os fellows escrevem sobre as suas semanas.",
+          "href": "fellowship#reflections"
+        },
+        {
+          "label": "Visão e livro branco",
+          "text": "Para onde vai a LAISH, e porquê.",
+          "href": "writing#docs"
+        },
+        {
+          "label": "Substack",
+          "text": "Subscreve e lê o arquivo.",
+          "href": "substack"
+        }
+      ],
+      "about": [
+        {
+          "label": "Missão",
+          "text": "Porquê a segurança da IA, e porquê Portugal.",
+          "href": "about#mission"
+        },
+        {
+          "label": "Equipa e conselheiros",
+          "text": "As pessoas por trás da LAISH.",
+          "href": "about#team"
+        },
+        {
+          "label": "Rede",
+          "text": "Os nossos afiliados e parceiros.",
+          "href": "about#network"
+        },
+        {
+          "label": "Visão",
+          "text": "O nosso plano para a segurança da IA em Portugal.",
+          "href": "vision"
+        },
+        {
+          "label": "Livro branco",
+          "text": "O livro branco de junho de 2026.",
+          "href": "whitepaper"
+        },
+        {
+          "label": "Código de conduta",
+          "text": "Como nos tratamos uns aos outros.",
+          "href": "conduct"
+        }
+      ],
+      "nextEvent": "Próximo evento"
+    }
+  },
+  "_draftNote": "Set draft to false at launch. It removes the yellow 'Draft' bar.",
+  "_submenuNote": "submenu: the dropdowns under each main menu item. href uses the same targets as paths.json: page id, page#anchor, links key, URL, or mail:Subject. Resources and the next event are added from the data files."
+}

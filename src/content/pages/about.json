@@ -1,0 +1,182 @@
+{
+  "en": {
+    "title": "About · LAISH",
+    "description": "LAISH is Portugal's first community for AI safety. Our mission, theory of change, team and advisors.",
+    "hero": {
+      "tag": "About LAISH",
+      "title": "Portugal's first community for AI safety.",
+      "lede": "We bring together students, researchers, professionals and policymakers who want advanced AI to be safe, human-aligned and equitable. Together we can make sure AI goes right, for all of humanity.",
+      "primary": "Meet the team",
+      "secondary": "Read our vision",
+      "photo": "[Photo: the LAISH community]"
+    },
+    "mission": {
+      "label": "Our mission",
+      "title": "A voice for Portugal in how advanced AI is built.",
+      "paras": [
+        "AI capabilities are advancing faster than expected, and the guardrails are not keeping up. Many experts warn of catastrophic risks: misuse to build biological or nuclear weapons, a dangerous concentration of power, and loss of control over systems we cannot yet understand. The laws, regulation and technical safety standards to prevent this must come now, not after the harm.",
+        "Today, a few companies and governments hold most of the power over these decisions. We want Portugal to have a say. We are part of a global effort on public awareness, technical research and international governance."
+      ],
+      "whyLabel": "Why Portugal",
+      "why": [
+        { "title": "Talent", "text": "One of the most highly educated youth populations in Europe." },
+        { "title": "Tech community", "text": "A thriving tech sector and a large community of expats, remote workers and founders." },
+        { "title": "Influence", "text": "An EU member and a close ally of the UK. EU rules can start as national ideas." }
+      ]
+    },
+    "change": {
+      "label": "Theory of change",
+      "title": "How we think change happens.",
+      "items": [
+        { "title": "We educate", "text": "A fellowship and community events teach students and professionals about AI safety." },
+        { "title": "Talent grows", "text": "This builds local talent in Portugal and moves people towards AI safety roles." },
+        { "title": "A community forms", "text": "Portugal gets an AI safety community that works with groups across Europe." },
+        { "title": "The world is safer", "text": "The global effort to reduce risks from advanced AI gets stronger." }
+      ]
+    },
+    "pipeline": {
+      "label": "The talent pipeline",
+      "title": "We focus on the first three steps.",
+      "intro": "Everyone sits somewhere on this pipeline. LAISH helps people at levels 0 to 2 move to the next level. For example, the fellowship takes people from level 2 to level 3. Adapted from Safe AI Netherlands (SAIN).",
+      "focus": "Our focus",
+      "levels": [
+        ["No engagement", "Has not met AI safety yet"],
+        ["First contact", "Comes to an event, reads a post"],
+        ["Foundations", "Completes a course, joins a discussion group"],
+        ["Active contribution", "Joins a project, a campaign or a hackathon"],
+        ["Structured development", "Full-time paid fellowship or internship"],
+        ["Professional impact", "Works full-time in AI safety"]
+      ]
+    },
+    "do": {
+      "label": "What we do",
+      "title": "Six ways we move people forward.",
+      "items": [
+        { "title": "Community events", "text": "Dialogue on AI safety for people living in Portugal." },
+        { "title": "Courses", "text": "Structured courses on the fundamentals of AI safety." },
+        { "title": "Career advising", "text": "One-to-one guidance for moving into AI safety roles." },
+        { "title": "International connections", "text": "Links with AI safety communities across Europe." },
+        { "title": "Outreach", "text": "Talks at universities and external events." },
+        { "title": "Talent pipeline", "text": "Moving people from first contact to real contribution." }
+      ]
+    },
+    "team": { "label": "Team", "title": "The people building LAISH.", "advisors": "Advisors", "volunteers": "Volunteers" },
+    "network": {
+      "label": "Network",
+      "title": "Connected across Iberia and Europe.",
+      "text": "We work with aligned organisations to grow the AI safety community in Portugal and Spain.",
+      "affiliates": "Affiliates",
+      "partners": "Working with"
+    },
+    "next": {
+      "label": "What is next",
+      "title": "LAISH is young, with a lot of room to grow.",
+      "items": [
+        { "title": "Bigger courses", "text": "More places, an extended fellowship and a one-week intensive course." },
+        { "title": "Iberian hackathons", "text": "Joint events with the AI safety communities in Barcelona and Madrid." },
+        { "title": "Political outreach", "text": "A campaign for Portuguese politicians to commit to safe AI." },
+        { "title": "A permanent home", "text": "A space in Lisbon for research collaboration and events." }
+      ]
+    },
+    "docs": {
+      "label": "Documents",
+      "title": "Read the details.",
+      "items": [
+        { "title": "Vision", "text": "Our principles, mission, role, actions and talent pipeline.", "href": "vision" },
+        { "title": "White paper", "text": "The LAISH white paper, June 2026.", "href": "whitepaper" },
+        { "title": "Code of conduct", "text": "How we expect everyone to behave at our events and online.", "href": "conduct" }
+      ]
+    },
+    "cta": { "label": "Join us", "title": "Want to help grow LAISH?", "text": "Reach out if you want to organise, research, speak or volunteer.", "button": "Contact us" }
+  },
+  "pt": {
+    "title": "Sobre · LAISH",
+    "description": "A LAISH é a primeira comunidade de segurança da IA em Portugal. A nossa missão, teoria da mudança, equipa e conselheiros.",
+    "hero": {
+      "tag": "Sobre a LAISH",
+      "title": "A primeira comunidade de segurança da IA em Portugal.",
+      "lede": "Reunimos estudantes, investigadores, profissionais e decisores políticos que querem uma IA avançada segura, alinhada com as pessoas e equitativa. Juntos, podemos garantir que a IA segue o caminho certo, para toda a humanidade.",
+      "primary": "Conhece a equipa",
+      "secondary": "Lê a nossa visão",
+      "photo": "[Fotografia: a comunidade LAISH]"
+    },
+    "mission": {
+      "label": "A nossa missão",
+      "title": "Uma voz para Portugal na forma como a IA avançada é construída.",
+      "paras": [
+        "As capacidades da IA estão a avançar mais depressa do que se esperava, e as salvaguardas não estão a acompanhar. Muitos especialistas alertam para riscos catastróficos: o uso indevido para criar armas biológicas ou nucleares, uma concentração perigosa de poder e a perda de controlo sobre sistemas que ainda não conseguimos compreender. As leis, a regulação e as normas técnicas de segurança para o evitar têm de surgir agora, não depois do dano.",
+        "Hoje, poucas empresas e governos concentram a maior parte do poder sobre estas decisões. Queremos que Portugal tenha uma palavra a dizer. Fazemos parte de um esforço global de sensibilização pública, investigação técnica e governação internacional."
+      ],
+      "whyLabel": "Porquê Portugal",
+      "why": [
+        { "title": "Talento", "text": "Uma das populações jovens com maior nível de educação da Europa." },
+        { "title": "Comunidade tecnológica", "text": "Um setor tecnológico dinâmico e uma grande comunidade de expatriados, trabalhadores remotos e fundadores." },
+        { "title": "Influência", "text": "Um membro da UE e um aliado próximo do Reino Unido. As regras europeias podem nascer de ideias nacionais." }
+      ]
+    },
+    "change": {
+      "label": "Teoria da mudança",
+      "title": "Como acreditamos que a mudança acontece.",
+      "items": [
+        { "title": "Formamos", "text": "Um fellowship e eventos comunitários ensinam estudantes e profissionais sobre segurança da IA." },
+        { "title": "O talento cresce", "text": "Isto desenvolve talento local em Portugal e aproxima as pessoas de funções em segurança da IA." },
+        { "title": "Nasce uma comunidade", "text": "Portugal ganha uma comunidade de segurança da IA que trabalha com grupos de toda a Europa." },
+        { "title": "O mundo fica mais seguro", "text": "O esforço global para reduzir os riscos da IA avançada fica mais forte." }
+      ]
+    },
+    "pipeline": {
+      "label": "O percurso de talento",
+      "title": "Concentramo-nos nos três primeiros passos.",
+      "intro": "Todas as pessoas estão em algum ponto deste percurso. A LAISH ajuda quem está nos níveis 0 a 2 a avançar para o nível seguinte. Por exemplo, o fellowship leva as pessoas do nível 2 ao nível 3. Adaptado da Safe AI Netherlands (SAIN).",
+      "focus": "O nosso foco",
+      "levels": [
+        ["Sem contacto", "Ainda não conhece a segurança da IA"],
+        ["Primeiro contacto", "Vai a um evento, lê uma publicação"],
+        ["Fundamentos", "Conclui um curso, entra num grupo de discussão"],
+        ["Contribuição ativa", "Entra num projeto, numa campanha ou num hackathon"],
+        ["Desenvolvimento estruturado", "Fellowship ou estágio pago a tempo inteiro"],
+        ["Impacto profissional", "Trabalha a tempo inteiro em segurança da IA"]
+      ]
+    },
+    "do": {
+      "label": "O que fazemos",
+      "title": "Seis formas de ajudar as pessoas a avançar.",
+      "items": [
+        { "title": "Eventos comunitários", "text": "Diálogo sobre segurança da IA para quem vive em Portugal." },
+        { "title": "Cursos", "text": "Cursos estruturados sobre os fundamentos da segurança da IA." },
+        { "title": "Orientação de carreira", "text": "Acompanhamento individual para a transição para funções em segurança da IA." },
+        { "title": "Ligações internacionais", "text": "Ligações com comunidades de segurança da IA em toda a Europa." },
+        { "title": "Divulgação", "text": "Palestras em universidades e eventos externos." },
+        { "title": "Percurso de talento", "text": "Levar as pessoas do primeiro contacto a uma contribuição real." }
+      ]
+    },
+    "team": { "label": "Equipa", "title": "As pessoas que constroem a LAISH.", "advisors": "Conselheiros", "volunteers": "Voluntários" },
+    "network": {
+      "label": "Rede",
+      "title": "Ligados à Península Ibérica e à Europa.",
+      "text": "Colaboramos com organizações alinhadas para fazer crescer a comunidade de segurança da IA em Portugal e Espanha.",
+      "affiliates": "Afiliados",
+      "partners": "Trabalhamos com"
+    },
+    "next": {
+      "label": "O que vem a seguir",
+      "title": "A LAISH é jovem e tem muito espaço para crescer.",
+      "items": [
+        { "title": "Mais cursos", "text": "Mais vagas, um fellowship alargado e um curso intensivo de uma semana." },
+        { "title": "Hackathons ibéricos", "text": "Eventos conjuntos com as comunidades de segurança da IA de Barcelona e Madrid." },
+        { "title": "Ação política", "text": "Uma campanha para que os políticos portugueses se comprometam com uma IA segura." },
+        { "title": "Um espaço próprio", "text": "Um espaço em Lisboa para colaboração em investigação e eventos." }
+      ]
+    },
+    "docs": {
+      "label": "Documentos",
+      "title": "Lê os detalhes.",
+      "items": [
+        { "title": "Visão", "text": "Os nossos princípios, missão, papel, ações e percurso de talento.", "href": "vision" },
+        { "title": "Livro branco", "text": "O livro branco da LAISH, junho de 2026.", "href": "whitepaper" },
+        { "title": "Código de conduta", "text": "Como esperamos que todos se comportem nos nossos eventos e online.", "href": "conduct" }
+      ]
+    },
+    "cta": { "label": "Junta-te a nós", "title": "Queres ajudar a LAISH a crescer?", "text": "Fala connosco se quiseres organizar, investigar, dar uma palestra ou ser voluntário.", "button": "Contacta-nos" }
+  }
+}

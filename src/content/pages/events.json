@@ -1,0 +1,40 @@
+{
+  "en": {
+    "title": "Events · LAISH",
+    "description": "Free AI safety events in Lisbon: film screenings, discussion groups, guest lectures and socials. Open to all.",
+    "hero": {
+      "tag": "Free and open to all",
+      "title": "Events in Lisbon, this term.",
+      "lede": "Film screenings, discussion groups, guest lectures and socials. Events are in English unless stated. Portuguese speakers are always in the room.",
+      "primary": "Subscribe to the calendar",
+      "secondary": "Join the Discord"
+    },
+    "upcoming": { "label": "Upcoming", "title": "What is on.", "filter": "Filter events" },
+    "formats": { "label": "Regular formats", "title": "Something every month.", "intro": "No background needed. Come to one, or come to all of them." },
+    "past": { "label": "Past events", "title": "What we have done so far.", "attended": "attended" },
+    "suggest": {
+      "title": "Running an AI safety event in Portugal?",
+      "text": "Tell us and we will list it here and in the newsletter. We also welcome speakers who want to give a talk.",
+      "button": "Suggest an event"
+    }
+  },
+  "pt": {
+    "title": "Eventos · LAISH",
+    "description": "Eventos gratuitos sobre segurança da IA em Lisboa: exibições de filmes, grupos de discussão, palestras e convívios. Abertos a todos.",
+    "hero": {
+      "tag": "Gratuitos e abertos a todos",
+      "title": "Eventos em Lisboa, este trimestre.",
+      "lede": "Exibições de filmes, grupos de discussão, palestras e convívios. Os eventos são em inglês, salvo indicação em contrário. Há sempre pessoas que falam português na sala.",
+      "primary": "Subscrever o calendário",
+      "secondary": "Entra no Discord"
+    },
+    "upcoming": { "label": "Próximos eventos", "title": "O que aí vem.", "filter": "Filtrar eventos" },
+    "formats": { "label": "Formatos regulares", "title": "Há sempre algo todos os meses.", "intro": "Não precisas de experiência. Vem a um, ou vem a todos." },
+    "past": { "label": "Eventos anteriores", "title": "O que já fizemos.", "attended": "participantes" },
+    "suggest": {
+      "title": "Organizas um evento de segurança da IA em Portugal?",
+      "text": "Diz-nos e divulgamo-lo aqui e na newsletter. Também procuramos oradores que queiram dar uma palestra.",
+      "button": "Sugerir um evento"
+    }
+  }
+}

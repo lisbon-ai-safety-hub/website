@@ -1,0 +1,108 @@
+{
+  "resources": {
+    "en": {
+      "title": "Resources · LAISH",
+      "description": "A curated library of courses, readings and communities to get started in AI safety.",
+      "hero": { "tag": "Resources", "title": "Readings and resources.", "lede": "A curated library to help you start in AI safety and follow a fast-changing field." },
+      "filter": "Filter resources",
+      "all": "All",
+      "suggest": { "title": "Know a good resource?", "text": "Memos, briefs and projects from the community are welcome.", "button": "Propose a resource" }
+    },
+    "pt": {
+      "title": "Recursos · LAISH",
+      "description": "Uma biblioteca selecionada de cursos, leituras e comunidades para começar em segurança da IA.",
+      "hero": { "tag": "Recursos", "title": "Leituras e recursos.", "lede": "Uma biblioteca selecionada para começares em segurança da IA e acompanhares uma área em rápida mudança." },
+      "filter": "Filtrar recursos",
+      "all": "Todos",
+      "suggest": { "title": "Conheces um bom recurso?", "text": "Memorandos, sínteses e projetos da comunidade são bem-vindos.", "button": "Propor um recurso" }
+    }
+  },
+  "writing": {
+    "en": {
+      "title": "Writing · LAISH",
+      "description": "Essays and reflections by LAISH fellows, and the monthly newsletter from the LAISH team.",
+      "hero": { "tag": "Writing", "title": "Written by our fellows.", "lede": "Our fellows write most of our essays and reflections: about AI risk, governance and what they learn in the course. The LAISH team writes the monthly newsletter. Everything is on our Substack.", "primary": "Subscribe on Substack", "secondary": "Write for us" },
+      "kinds": { "essay": "Essay", "reflection": "Fellowship reflection", "newsletter": "Newsletter" },
+      "by": "by", "and": "and", "byline": { "fellow": "Fellow, 2026 cohort", "fellows": "Fellows, 2026 cohort", "team": "LAISH team" },
+      "docs": { "label": "Documents", "title": "Our own papers." }
+    },
+    "pt": {
+      "title": "Publicações · LAISH",
+      "description": "Ensaios e reflexões dos fellows da LAISH, e a newsletter mensal da equipa LAISH.",
+      "hero": { "tag": "Publicações", "title": "Escrito pelos nossos fellows.", "lede": "Os nossos fellows escrevem a maior parte dos ensaios e reflexões: sobre os riscos da IA, a governação e o que aprendem no curso. A equipa LAISH escreve a newsletter mensal. Tudo é publicado no nosso Substack, sobretudo em inglês.", "primary": "Subscrever no Substack", "secondary": "Escreve connosco" },
+      "kinds": { "essay": "Ensaio", "reflection": "Reflexão do fellowship", "newsletter": "Newsletter" },
+      "by": "por", "and": "e", "byline": { "fellow": "Fellow, edição de 2026", "fellows": "Fellows, edição de 2026", "team": "Equipa LAISH" },
+      "docs": { "label": "Documentos", "title": "Os nossos documentos." }
+    }
+  },
+  "contact": {
+    "en": {
+      "title": "Contact · LAISH",
+      "description": "Write to LAISH about the fellowship, events, partnerships, press or volunteering.",
+      "hero": { "tag": "Contact", "title": "Write to us.", "lede": "Questions about the fellowship, events or joining the community? Send us an email. We read every message and try to reply within a few days." },
+      "topicsLabel": "Choose a topic",
+      "topicsHint": "Each link opens your email app with the subject filled in.",
+      "topics": [
+        { "subject": "Fellowship", "title": "Fellowship", "text": "Applications, dates and the course." },
+        { "subject": "Events", "title": "Events", "text": "Upcoming events, venues, giving a talk." },
+        { "subject": "Partnerships", "title": "Partnerships", "text": "Universities, organisations, sponsors." },
+        { "subject": "Volunteering", "title": "Volunteering", "text": "Help us organise, research or reach out." },
+        { "subject": "Press", "title": "Press", "text": "Interviews and media requests." },
+        { "subject": "Other", "title": "Something else", "text": "Any other question or feedback." }
+      ],
+      "direct": "Or write directly to",
+      "social": "Elsewhere",
+      "independent": "LAISH is an independent, volunteer-run community in Lisbon, with no university affiliation.",
+      "faq": {
+        "label": "Common questions",
+        "title": "Answers before you write.",
+        "items": [
+          ["Do I need a technical background to join?", "No. The fellowship is non-technical and open to students and working professionals. Curiosity and a willingness to read and discuss are enough."],
+          ["When do applications open for the fellowship?", "The next round opens in [month 2027]. Subscribe to the newsletter to hear first."],
+          ["Is everything free?", "Yes. The fellowship, community events and guest lectures are free. We want cost to stay out of the way of taking part."],
+          ["Where do events take place?", "At venues across Lisbon. Each event listing shows its location."],
+          ["How can I get involved beyond the fellowship?", "Join the Discord, come to discussion groups and film screenings, and ask for career guidance. To help organise or host events, or to give a talk, write to us. See [all ways to get involved](/get-involved)."],
+          ["Who should I contact with a question?", "Use the email links on this page, or write to contact@lisbonaisafetyhub.org."]
+        ]
+      }
+    },
+    "pt": {
+      "title": "Contacto · LAISH",
+      "description": "Escreve à LAISH sobre o fellowship, eventos, parcerias, imprensa ou voluntariado.",
+      "hero": { "tag": "Contacto", "title": "Escreve-nos.", "lede": "Tens dúvidas sobre o fellowship, os eventos ou como participar? Envia-nos um email. Lemos todas as mensagens e tentamos responder em poucos dias." },
+      "topicsLabel": "Escolhe um tema",
+      "topicsHint": "Cada ligação abre a tua aplicação de email com o assunto preenchido.",
+      "topics": [
+        { "subject": "Fellowship", "title": "Fellowship", "text": "Candidaturas, datas e o curso." },
+        { "subject": "Eventos", "title": "Eventos", "text": "Próximos eventos, locais, dar uma palestra." },
+        { "subject": "Parcerias", "title": "Parcerias", "text": "Universidades, organizações, patrocinadores." },
+        { "subject": "Voluntariado", "title": "Voluntariado", "text": "Ajuda-nos a organizar, investigar ou divulgar." },
+        { "subject": "Imprensa", "title": "Imprensa", "text": "Entrevistas e pedidos dos meios de comunicação." },
+        { "subject": "Outro", "title": "Outro assunto", "text": "Qualquer outra pergunta ou sugestão." }
+      ],
+      "direct": "Ou escreve diretamente para",
+      "social": "Noutros sítios",
+      "independent": "A LAISH é uma comunidade independente em Lisboa, gerida por voluntários e sem afiliação universitária.",
+      "faq": {
+        "label": "Perguntas comuns",
+        "title": "Respostas antes de escreveres.",
+        "items": [
+          ["Preciso de conhecimentos técnicos para participar?", "Não. O fellowship não é técnico e está aberto a estudantes e profissionais. Basta curiosidade e vontade de ler e discutir."],
+          ["Quando abrem as candidaturas ao fellowship?", "A próxima edição abre em [mês de 2027]. Subscreve a newsletter para saberes primeiro."],
+          ["É tudo gratuito?", "Sim. O fellowship, os eventos comunitários e as palestras são gratuitos. Não queremos que o custo seja um obstáculo à participação."],
+          ["Onde decorrem os eventos?", "Em vários locais de Lisboa. Cada evento indica o seu local."],
+          ["Como posso participar além do fellowship?", "Entra no Discord, vem aos grupos de discussão e às exibições de filmes, e pede orientação de carreira. Para ajudar a organizar ou acolher eventos, ou para dar uma palestra, escreve-nos. Vê [todas as formas de participar](/pt/get-involved)."],
+          ["A quem devo dirigir uma pergunta?", "Usa as ligações de email desta página, ou escreve para contact@lisbonaisafetyhub.org."]
+        ]
+      }
+    }
+  },
+  "notfound": {
+    "en": { "title": "Page not found · LAISH", "heading": "This page does not exist.", "text": "The link may be old, or the page has moved.", "home": "Go to the home page" },
+    "pt": { "title": "Página não encontrada · LAISH", "heading": "Esta página não existe.", "text": "A ligação pode estar desatualizada, ou a página mudou de sítio.", "home": "Ir para a página inicial" }
+  },
+  "legal": {
+    "en": { "conductTitle": "Code of conduct", "conductLabel": "Community", "privacyTitle": "Privacy notice", "privacyLabel": "Legal", "visionTitle": "Vision", "visionLabel": "Documents", "report": "Need to report something?", "reportButton": "Write to us" },
+    "pt": { "conductTitle": "Código de conduta", "conductLabel": "Comunidade", "privacyTitle": "Aviso de privacidade", "privacyLabel": "Legal", "visionTitle": "Visão", "visionLabel": "Documentos", "report": "Precisas de reportar algo?", "reportButton": "Escreve-nos" }
+  }
+}

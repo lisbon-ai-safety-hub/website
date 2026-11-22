@@ -1,0 +1,99 @@
+{
+  "_note": "Posts from the LAISH Substack, newest first. kind: essay | reflection | newsletter. authors: names as in the Substack byline (empty if none). byline: fellows (written by fellowship participants), team (LAISH team), or unknown. Titles stay in the language they were published in.",
+  "posts": [
+    {
+      "date": "2026-11-16",
+      "kind": "essay",
+      "title": "Biometric data, AI, and the structural limits of redress",
+      "authors": [
+        "Bachir Remtula"
+      ],
+      "byline": "fellows",
+      "url": "https://lisbonaisafetyhub.substack.com/p/biometric-data-ai-and-the-structural"
+    },
+    {
+      "date": "2026-11-11",
+      "kind": "essay",
+      "title": "AI Safety: What Does Sex Have to Do with It? Everything.",
+      "authors": [
+        "Francisca Bos"
+      ],
+      "byline": "fellows",
+      "url": "https://lisbonaisafetyhub.substack.com/p/ai-safety-what-does-sex-have-to-do"
+    },
+    {
+      "date": "2026-10-30",
+      "kind": "reflection",
+      "title": "Notes from the 11th Floor",
+      "authors": [
+        "Stefan Kujundzic",
+        "Bachir Remtula"
+      ],
+      "byline": "fellows",
+      "url": "https://lisbonaisafetyhub.substack.com/p/laish-fellowship-reflections-fdd"
+    },
+    {
+      "date": "2026-10-27",
+      "kind": "essay",
+      "title": "What happens when AI speeds up cybersecurity?",
+      "authors": [],
+      "byline": "team",
+      "url": "https://lisbonaisafetyhub.substack.com/p/php2shell-what-happens-when-ai-speeds"
+    },
+    {
+      "date": "2026-10-20",
+      "kind": "reflection",
+      "title": "Exactly What We Asked For",
+      "authors": [
+        "Stefan Kujundzic",
+        "Bachir Remtula"
+      ],
+      "byline": "fellows",
+      "url": "https://lisbonaisafetyhub.substack.com/p/laish-fellowship-reflections-699"
+    },
+    {
+      "date": "2026-10-13",
+      "kind": "reflection",
+      "title": "Week 1: How worried should we be?",
+      "authors": [
+        "Stefan Kujundzic"
+      ],
+      "byline": "fellows",
+      "url": "https://lisbonaisafetyhub.substack.com/p/laish-fellowship-reflections"
+    },
+    {
+      "date": "2026-10-09",
+      "kind": "essay",
+      "title": "Middle Powers need datacenters. How can we build them safely?",
+      "authors": [
+        "Frederico Luz"
+      ],
+      "byline": "team",
+      "url": "https://lisbonaisafetyhub.substack.com/p/middle-powers-need-datacenters-how"
+    },
+    {
+      "date": "2026-10-02",
+      "kind": "essay",
+      "title": "The AI Risk Most People Aren't Thinking About",
+      "authors": [],
+      "byline": "unknown",
+      "url": "https://lisbonaisafetyhub.substack.com/p/the-ai-risk-most-people-arent-thinking"
+    },
+    {
+      "date": "2026-09-25",
+      "kind": "newsletter",
+      "title": "Frontier Risks Reach the Mainstream",
+      "authors": [],
+      "byline": "team",
+      "url": "https://lisbonaisafetyhub.substack.com/p/frontier-risks-reach-the-mainstream"
+    },
+    {
+      "date": "2026-08-22",
+      "kind": "newsletter",
+      "title": "The agents are leaving the sandbox. Safety has to catch up.",
+      "authors": [],
+      "byline": "team",
+      "url": "https://lisbonaisafetyhub.substack.com/p/the-agents-are-leaving-the-sandbox"
+    }
+  ]
+}

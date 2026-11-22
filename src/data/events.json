@@ -1,0 +1,66 @@
+{
+  "_note": "Add each event here. Upcoming and past are sorted by date automatically. category: screening | discussion | lecture | social. Put the registration link (Luma or Meetup) in url.",
+  "events": [
+    {
+      "id": "2026-12-08-the-ai-doc",
+      "date": "2026-12-08",
+      "time": "20:00",
+      "category": "screening",
+      "venue": "[Venue]",
+      "url": "[Luma link]",
+      "free": true,
+      "en": {
+        "title": "Film screening: The AI Doc, or How I Became an Apocaloptimist",
+        "summary": "Free screening of the 2026 documentary by Daniel Roher, then a discussion on \"apocaloptimism\" and policy change. Light refreshments."
+      },
+      "pt": {
+        "title": "Exibição de filme: The AI Doc, or How I Became an Apocaloptimist",
+        "summary": "Exibição gratuita do documentário de 2026 de Daniel Roher, seguida de debate sobre \"apocalotimismo\" e mudança de políticas. Com pequeno lanche."
+      }
+    },
+    {
+      "id": "2026-12-14-frontier-paper-group",
+      "date": "2026-12-14",
+      "time": "19:00",
+      "category": "discussion",
+      "venue": "[Venue]",
+      "url": "[Luma link]",
+      "free": true,
+      "en": {
+        "title": "Frontier Paper Discussion Group",
+        "summary": "A roundtable on new research on frontier AI. Light refreshments."
+      },
+      "pt": {
+        "title": "Grupo de discussão de artigos de fronteira",
+        "summary": "Uma mesa-redonda sobre investigação recente em IA de fronteira. Com pequeno lanche."
+      }
+    }
+  ],
+  "formats": [
+    {
+      "category": "discussion",
+      "en": { "title": "Frontier Paper Discussion Group", "text": "A roundtable on new research papers and books on frontier AI. Coordinated by Frederico Luz." },
+      "pt": { "title": "Grupo de discussão de artigos de fronteira", "text": "Uma mesa-redonda sobre artigos e livros recentes sobre IA de fronteira. Coordenado por Frederico Luz." }
+    },
+    {
+      "category": "discussion",
+      "en": { "title": "Monthly discussion circles", "text": "An open roundtable on frontier AI research, once a month. Light refreshments." },
+      "pt": { "title": "Círculos de discussão mensais", "text": "Uma mesa-redonda aberta sobre investigação em IA de fronteira, uma vez por mês. Com pequeno lanche." }
+    },
+    {
+      "category": "screening",
+      "en": { "title": "Film screenings", "text": "Documentaries on AI, then a discussion. Free, with light refreshments." },
+      "pt": { "title": "Exibições de filmes", "text": "Documentários sobre IA, seguidos de debate. Gratuito, com pequeno lanche." }
+    },
+    {
+      "category": "lecture",
+      "en": { "title": "Guest lectures", "text": "Experts on technical safety, governance and the EU AI Act. Open to the public." },
+      "pt": { "title": "Palestras convidadas", "text": "Especialistas em segurança técnica, governação e no Regulamento Europeu da IA. Abertas ao público." }
+    },
+    {
+      "category": "social",
+      "en": { "title": "Socials", "text": "Games nights and informal get-togethers to meet the community." },
+      "pt": { "title": "Convívios", "text": "Noites de jogos e encontros informais para conhecer a comunidade." }
+    }
+  ]
+}
