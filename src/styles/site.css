@@ -141,10 +141,9 @@ ul, ol { margin: 0; }
 .subnav__link--featured .subnav__text { color: var(--sage); }
 .nav__item:focus-within .subnav { opacity: 1; visibility: visible; transform: none; transition-delay: 0s; }
 .nav__item:focus-within .nav__chev { transform: rotate(180deg); }
-@media (hover: hover) {
-  .nav__item:hover .subnav { opacity: 1; visibility: visible; transform: none; transition-delay: 0s; }
-  .nav__item:hover .nav__chev { transform: rotate(180deg); }
-}
+/* Open on hover with any mouse. Not wrapped in @media (hover: hover): touchscreen laptops report "no hover" and the menus never opened there. */
+.nav__item:hover .subnav { opacity: 1; visibility: visible; transform: none; transition-delay: 0s; }
+.nav__item:hover .nav__chev { transform: rotate(180deg); }
 .nav__item--closed .subnav { opacity: 0 !important; visibility: hidden !important; }
 .header-actions { display: flex; align-items: center; gap: var(--space-3); }
 
