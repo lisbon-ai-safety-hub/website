@@ -2,7 +2,7 @@
 import { esc, inline, markdown } from '../lib/html.mjs';
 import {
   button, tag, sectionTitle, mosaic, panel, newsletterPanel, subscribeForm, mailto,
-  eventRow, nextBar, programmeCards, initials, resolveHref, linkAttrs, dateParts, go, eventEnd, orgLink,
+  eventRow, nextBar, programmeCards, initials, resolveHref, linkAttrs, dateParts, go, eventEnd, orgLink, venueOf,
 } from './components.mjs';
 
 const pad = (n) => String(n).padStart(2, '0');
@@ -236,7 +236,7 @@ export function events(ctx) {
       <span class="label">${esc(ctx.t.events.nextUp)}</span>
       <span style="display: flex; align-items: baseline; gap: 14px; flex-wrap: wrap"><span class="next-card__day">${p.day}</span><span class="next-card__when">${esc(p.month)} · ${esc(p.weekday)} ${esc(ev.time || '')}</span></span>
       <span class="next-card__title">${esc(ev[ctx.lang].title)}</span>
-      <span class="next-card__text">${esc(ev[ctx.lang].summary)} ${esc(ev.venue || '')}</span>
+      <span class="next-card__text">${esc(ev[ctx.lang].summary)} ${esc(venueOf(ctx, ev))}</span>
       <span class="btn btn--on-ink" style="align-self: flex-start">${esc(ctx.t.events.attend)} →</span>
     </a>`;
   };
