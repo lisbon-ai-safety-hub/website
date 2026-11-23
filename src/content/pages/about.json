@@ -63,8 +63,8 @@
     "team": { "label": "Team", "title": "The people building LAISH.", "advisors": "Advisors", "volunteers": "Volunteers" },
     "network": {
       "label": "Network",
-      "title": "Connected across Iberia and Europe.",
-      "text": "We work with aligned organisations to grow the AI safety community in Portugal and Spain.",
+      "title": "Connected across Europe and beyond.",
+      "text": "We work with aligned organisations in Europe and beyond to grow the AI safety community in Portugal.",
       "affiliates": "Affiliates",
       "partners": "Working with",
       "sponsors": "Sponsored by"
@@ -154,8 +154,8 @@
     "team": { "label": "Equipa", "title": "As pessoas que constroem a LAISH.", "advisors": "Conselheiros", "volunteers": "Voluntários" },
     "network": {
       "label": "Rede",
-      "title": "Ligados à Península Ibérica e à Europa.",
-      "text": "Colaboramos com organizações alinhadas para fazer crescer a comunidade de segurança da IA em Portugal e Espanha.",
+      "title": "Ligados à Europa e ao resto do mundo.",
+      "text": "Colaboramos com organizações alinhadas, na Europa e fora dela, para fazer crescer a comunidade de segurança da IA em Portugal.",
       "affiliates": "Afiliados",
       "partners": "Trabalhamos com",
       "sponsors": "Patrocinado por"
