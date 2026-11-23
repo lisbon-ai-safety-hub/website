@@ -200,3 +200,10 @@ export function eventEnd(ev) {
   if (end <= start) end += 24 * 3600 * 1000; // ends after midnight
   return end;
 }
+
+// ---------- Organisation link (affiliates, sponsors, partners) ----------
+// With a logo: the logo in the site's ink colour (a CSS mask), name kept for screen readers. Without: the name as text.
+export function orgLink(o) {
+  if (!o.logo) return `<a href="${esc(o.url)}" rel="noopener">${esc(o.name)}</a>`;
+  return `<a class="org-logo" href="${esc(o.url)}" rel="noopener" title="${esc(o.name)}"><span class="org-logo__mark" style="--logo: url('${esc(o.logo)}')"><img src="${esc(o.logo)}" alt="" height="36" loading="lazy"></span><span class="visually-hidden">${esc(o.name)}</span></a>`;
+}
