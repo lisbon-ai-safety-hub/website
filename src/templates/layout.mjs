@@ -1,6 +1,6 @@
 // The page shell: <head>, header, footer and the small shared script.
 import { esc } from '../lib/html.mjs';
-import { crow, go, linkAttrs, dateParts } from './components.mjs';
+import { crow, go, linkAttrs, dateParts, eventEnd } from './components.mjs';
 
 const NAV = ['programmes', 'events', 'resources', 'writing', 'about'];
 
@@ -39,11 +39,11 @@ function subItems(ctx, id) {
     }
   }
   if (id === 'events') {
-    const next = ctx.data.events.events.filter((e) => e.date >= ctx.today).sort((a, b) => a.date.localeCompare(b.date))[0];
-    if (next) {
+    const ups = ctx.data.events.events.filter((e) => eventEnd(e) > ctx.now).sort((a, b) => eventEnd(a) - eventEnd(b)).slice(0, 3);
+    ups.reverse().forEach((next, k) => {
       const p = dateParts(ctx.lang, next.date);
-      items.unshift({ label: next[ctx.lang].title, text: `${S.nextEvent}: ${p.weekday} ${p.day} ${p.month}${next.time ? ', ' + next.time : ''}`, href: 'events#upcoming', featured: true });
-    }
+      items.unshift({ label: next[ctx.lang].title, text: `${S.nextEvent}: ${p.weekday} ${p.day} ${p.month}${next.time ? ', ' + next.time : ''}`, href: 'events#upcoming', featured: true, end: eventEnd(next), hidden: k < ups.length - 1 });
+    });
   }
   return items;
 }
@@ -54,11 +54,12 @@ function navDesktop(ctx) {
     const current = ctx.section === id ? ' aria-current="page"' : '';
     const panel = subItems(ctx, id).map((it) => {
       const h = go(ctx, it.href);
-      return `<li><a class="subnav__link${it.featured ? ' subnav__link--featured' : ''}" href="${esc(h)}"${linkAttrs(h)}><span class="subnav__label">${esc(it.label)}</span><span class="subnav__text">${esc(it.text)}</span></a></li>`;
+      const nextAttrs = it.end ? ` data-next-item data-end="${it.end}"${it.hidden ? ' hidden' : ''}` : '';
+      return `<li${nextAttrs}><a class="subnav__link${it.featured ? ' subnav__link--featured' : ''}" href="${esc(h)}"${linkAttrs(h)}><span class="subnav__label">${esc(it.label)}</span><span class="subnav__text">${esc(it.text)}</span></a></li>`;
     }).join('');
     return `<div class="nav__item">
       <a class="nav__link" href="${ctx.href(id)}"${current}>${esc(ctx.t.nav[id])}<svg class="nav__chev" viewBox="0 0 12 12" aria-hidden="true" focusable="false"><path d="M2.5 4.5 6 8l3.5-3.5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
-      <div class="subnav"><ul class="subnav__list">${panel}</ul></div>
+      <div class="subnav"><ul class="subnav__list" data-next>${panel}</ul></div>
     </div>`;
   }).join('');
 }
@@ -104,10 +105,37 @@ function footer(ctx) {
 
 export const SCRIPT = `
 (function () {
-  // Hide upcoming events whose date has passed since the last build.
-  var today = new Date().toISOString().slice(0, 10);
-  document.querySelectorAll('[data-upcoming] [data-date]').forEach(function (el) {
-    if (el.getAttribute('data-date') < today) el.hidden = true;
+  // Events: data-end is the end time (UTC ms). An event that has ended leaves the upcoming lists and "Next up",
+  // and shows under "Past events", even if the site was not built again since.
+  var now = Date.now();
+  var ended = function (el) { return Number(el.getAttribute('data-end')) <= now; };
+  document.querySelectorAll('[data-upcoming]').forEach(function (list) {
+    var limit = Number(list.getAttribute('data-limit')) || 0, shown = 0;
+    list.querySelectorAll('[data-end]').forEach(function (el) {
+      var show = !ended(el) && (!limit || shown < limit);
+      if (show) shown++;
+      el.hidden = !show;
+    });
+    list.querySelectorAll('[data-group]').forEach(function (g) { g.hidden = !g.querySelector('[data-end]:not([hidden])'); });
+    var empty = list.nextElementSibling;
+    if (!shown) { list.hidden = true; if (empty && empty.hasAttribute('data-upcoming-empty')) empty.hidden = false; }
+  });
+  document.querySelectorAll('[data-past]').forEach(function (box) {
+    var any = false;
+    box.querySelectorAll('[data-end]').forEach(function (el) { el.hidden = !ended(el); if (!el.hidden) any = true; });
+    box.hidden = !any;
+  });
+  // "Next event" (Home bar, Events page, menu): show the first event that has not passed yet.
+  document.querySelectorAll('[data-next]').forEach(function (box) {
+    var items = box.querySelectorAll('[data-next-item]');
+    if (!items.length) return;
+    var shown = null;
+    items.forEach(function (el) {
+      var keep = !shown && !ended(el);
+      if (keep) shown = el;
+      el.hidden = !keep;
+    });
+    if (!shown && box.getAttribute('data-next-empty') === 'hide') box.hidden = true;
   });
   // Filter buttons: <div data-filter-for="listId"> with <button data-filter="cat">.
   document.querySelectorAll('[data-filter-for]').forEach(function (bar) {
@@ -120,7 +148,7 @@ export const SCRIPT = `
       var cat = btn.getAttribute('data-filter');
       bar.querySelectorAll('button').forEach(function (b) { b.setAttribute('aria-pressed', b === btn ? 'true' : 'false'); });
       list.querySelectorAll('[data-category]').forEach(function (item) {
-        var past = item.hasAttribute('data-date') && item.getAttribute('data-date') < today && list.hasAttribute('data-upcoming');
+        var past = item.hasAttribute('data-end') && ended(item) && list.hasAttribute('data-upcoming');
         item.hidden = past || !(cat === 'all' || item.getAttribute('data-category') === cat);
       });
       list.querySelectorAll('[data-group]').forEach(function (g) {
@@ -162,6 +190,7 @@ export function layout(ctx, { title, description, body, ogType = 'website' }) {
 <title>${esc(title)}</title>
 <meta name="description" content="${esc(desc)}">
 ${ctx.noindex ? '<meta name="robots" content="noindex">' : `<link rel="canonical" href="${esc(canonical)}">`}
+${ctx.draft && !ctx.noindex ? '<meta name="robots" content="noindex">' : ''}
 ${ctx.noindex ? '' : `<link rel="alternate" hreflang="en" href="${esc(ctx.site.siteUrl + ctx.alternates.en)}">
 <link rel="alternate" hreflang="pt-PT" href="${esc(ctx.site.siteUrl + ctx.alternates.pt)}">
 <link rel="alternate" hreflang="x-default" href="${esc(ctx.site.siteUrl + ctx.alternates.en)}">`}

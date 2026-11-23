@@ -2,7 +2,7 @@
 import { esc, inline, markdown } from '../lib/html.mjs';
 import {
   button, tag, sectionTitle, mosaic, panel, newsletterPanel, subscribeForm, mailto,
-  eventRow, nextBar, programmeCards, initials, resolveHref, linkAttrs, dateParts, go,
+  eventRow, nextBar, programmeCards, initials, resolveHref, linkAttrs, dateParts, go, eventEnd,
 } from './components.mjs';
 
 const pad = (n) => String(n).padStart(2, '0');
@@ -29,11 +29,15 @@ function hero(ctx, { tagText, title, lede, actions = '', aside = '', top = false
   </section>`;
 }
 
-function upcoming(ctx) { return ctx.data.events.events.filter((e) => e.date >= ctx.today).sort((a, b) => a.date.localeCompare(b.date)); }
-function past(ctx) { return ctx.data.events.events.filter((e) => e.date < ctx.today).sort((a, b) => b.date.localeCompare(a.date)); }
+// Upcoming and past are decided at build time, then again in the browser (see SCRIPT in layout.mjs),
+// so an event moves to "Past events" when it ends, even if nobody builds the site again.
+function upcoming(ctx) { return ctx.data.events.events.filter((e) => eventEnd(e) > ctx.now).sort((a, b) => eventEnd(a) - eventEnd(b)); }
+function allByDateDesc(ctx) { return [...ctx.data.events.events].sort((a, b) => eventEnd(b) - eventEnd(a)); }
 
-function eventList(ctx, events, id) {
-  if (!events.length) return `<p class="empty">${esc(ctx.t.events.noUpcoming)}</p>`;
+function eventList(ctx, events, id, limit = 0) {
+  const empty = (show) => `<p class="empty" data-upcoming-empty${show ? '' : ' hidden'}>${esc(ctx.t.events.noUpcoming)}</p>`;
+  if (!events.length) return empty(true);
+  let n = 0;
   // Group by month.
   const groups = [];
   for (const ev of events) {
@@ -42,12 +46,12 @@ function eventList(ctx, events, id) {
     if (!g) groups.push((g = { m, items: [] }));
     g.items.push(ev);
   }
-  return `<div id="${id}" data-upcoming>
+  return `<div id="${id}" data-upcoming${limit ? ` data-limit="${limit}"` : ''}>
     ${groups.map((g) => `<div data-group>
       <p class="label month">${esc(dateParts(ctx.lang, g.m + '-01').monthLong)}</p>
-      ${g.items.map((ev) => eventRow(ctx, ev)).join('\n')}
+      ${g.items.map((ev) => eventRow(ctx, ev, limit && ++n > limit)).join('\n')}
     </div>`).join('\n')}
-  </div>`;
+  </div>${empty(false)}`;
 }
 
 // ------------------------------------------------------------------ Home
@@ -68,7 +72,7 @@ ${hero(ctx, {
   actions: `<div class="btn-row">${button(ctx, { label: c.hero.primary, href: ctx.href('fellowship') + '#notify', size: 'lg' })}${button(ctx, { label: c.hero.secondary, href: 'discord', variant: 'secondary', size: 'lg' })}</div>`,
   aside: mosaic(),
 })}
-${next ? `<section class="wrap section--tight-bottom" aria-label="${esc(ctx.t.events.nextUp)}">${nextBar(ctx, next)}</section>` : ''}
+${next ? `<section class="wrap section--tight-bottom" aria-label="${esc(ctx.t.events.nextUp)}" data-next data-next-empty="hide">${upcoming(ctx).slice(0, 3).map((ev, i) => nextBar(ctx, ev, i > 0)).join('')}</section>` : ''}
 
 ${showStats ? `<section class="wrap section section--tight-bottom" aria-label="${esc(c.stats.label)}">
   <div class="stats">${stats.map((s) => `<div class="stat"><span class="stat-value">${esc(s.value)}</span><span class="muted">${esc(s[ctx.lang])}</span></div>`).join('')}</div>
@@ -105,7 +109,7 @@ ${showStats ? `<section class="wrap section section--tight-bottom" aria-label="$
 <section class="band-card" aria-labelledby="events-title">
   <div class="wrap section stack">
     <div class="section-head">${sectionTitle({ label: c.events.label, title: c.events.title, intro: c.events.note, id: 'events-title' })}<a class="link-arrow" href="${ctx.href('events')}">${esc(ctx.t.events.allEvents)}</a></div>
-    ${eventList(ctx, upcoming(ctx).slice(0, 3), 'home-events')}
+    ${eventList(ctx, upcoming(ctx).slice(0, 4), 'home-events', 3)}
   </div>
 </section>
 
@@ -225,18 +229,20 @@ export function events(ctx) {
   const up = upcoming(ctx);
   const next = up[0];
   const cats = ctx.t.events.categories;
-  const nextCard = next ? (() => {
-    const p = dateParts(ctx.lang, next.date);
-    const h = resolveHref(ctx, next.url);
-    return `<a class="next-card" href="${esc(h)}"${linkAttrs(h)}>
+  const card = (ev, hidden) => {
+    const p = dateParts(ctx.lang, ev.date);
+    const h = resolveHref(ctx, ev.url);
+    return `<a class="next-card" href="${esc(h)}"${linkAttrs(h)} data-next-item data-end="${eventEnd(ev)}"${hidden ? ' hidden' : ''}>
       <span class="label">${esc(ctx.t.events.nextUp)}</span>
-      <span style="display: flex; align-items: baseline; gap: 14px; flex-wrap: wrap"><span class="next-card__day">${p.day}</span><span class="next-card__when">${esc(p.month)} · ${esc(p.weekday)} ${esc(next.time || '')}</span></span>
-      <span class="next-card__title">${esc(next[ctx.lang].title)}</span>
-      <span class="next-card__text">${esc(next[ctx.lang].summary)} ${esc(next.venue || '')}</span>
+      <span style="display: flex; align-items: baseline; gap: 14px; flex-wrap: wrap"><span class="next-card__day">${p.day}</span><span class="next-card__when">${esc(p.month)} · ${esc(p.weekday)} ${esc(ev.time || '')}</span></span>
+      <span class="next-card__title">${esc(ev[ctx.lang].title)}</span>
+      <span class="next-card__text">${esc(ev[ctx.lang].summary)} ${esc(ev.venue || '')}</span>
       <span class="btn btn--on-ink" style="align-self: flex-start">${esc(ctx.t.events.attend)} →</span>
     </a>`;
-  })() : '';
-  const pastList = past(ctx);
+  };
+  const nextCard = next ? `<div data-next data-next-empty="hide">${up.slice(0, 3).map((ev, i) => card(ev, i > 0)).join('')}</div>` : '';
+  const pastList = allByDateDesc(ctx); // all events; the ones that have not ended yet stay hidden
+  const anyPast = pastList.some((ev) => eventEnd(ev) <= ctx.now);
   const body = `
 ${hero(ctx, {
   tagText: c.hero.tag, title: c.hero.title, lede: c.hero.lede,
@@ -263,12 +269,12 @@ ${hero(ctx, {
   </div>
 </section>
 
-${pastList.length ? `<section aria-labelledby="past">
+${pastList.length ? `<section aria-labelledby="past" data-past${anyPast ? '' : ' hidden'}>
   <div class="wrap section stack">
     ${sectionTitle({ label: c.past.label, title: c.past.title, id: 'past' })}
     <div>${pastList.map((ev) => {
       const p = dateParts(ctx.lang, ev.date);
-      return `<article class="event"><div class="event__date"><span class="event__day">${p.day}</span><span class="event__when">${esc(p.month)} ${ev.date.slice(0, 4)}</span></div><div class="event__body"><h3 class="event__title">${esc(ev[ctx.lang].title)}</h3><p class="event__meta">${esc(ev[ctx.lang].summary || '')}</p></div>${ev.attended ? `<span class="muted small">${esc(ev.attended)} ${esc(c.past.attended)}</span>` : ''}</article>`;
+      return `<article class="event" data-end="${eventEnd(ev)}"${eventEnd(ev) > ctx.now ? ' hidden' : ''}><div class="event__date"><span class="event__day">${p.day}</span><span class="event__when">${esc(p.month)} ${ev.date.slice(0, 4)}</span></div><div class="event__body"><h3 class="event__title">${esc(ev[ctx.lang].title)}</h3><p class="event__meta">${esc(ev[ctx.lang].summary || '')}</p></div>${ev.attended ? `<span class="muted small">${esc(ev.attended)} ${esc(c.past.attended)}</span>` : ''}</article>`;
     }).join('')}</div>
   </div>
 </section>` : ''}

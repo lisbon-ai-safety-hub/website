@@ -93,7 +93,9 @@ setCrowPath(crowSvg.match(/ d="([^"]+)"/)[1]);
 setOrigin(site.siteUrl);
 
 const has = (p) => existsSync(join(SRC, 'static', p));
-const today = process.env.BUILD_DATE || new Date().toISOString().slice(0, 10);
+// BUILD_DATE (optional, for tests): "2026-11-24" or a full time "2026-11-24T20:01:00Z".
+const now = process.env.BUILD_DATE ? Date.parse(process.env.BUILD_DATE.includes('T') ? process.env.BUILD_DATE : process.env.BUILD_DATE + 'T12:00:00Z') : Date.now();
+const today = new Date(now).toISOString().slice(0, 10);
 
 function makeCtx(lang, route) {
   return {
@@ -101,6 +103,7 @@ function makeCtx(lang, route) {
     site,
     data,
     today,
+    now,
     cssVersion,
     t: site[lang],
     draft: site.draft === true,
@@ -181,6 +184,10 @@ write('_headers', `/*
 /fonts/*
   Cache-Control: public, max-age=31536000, immutable
   Access-Control-Allow-Origin: *
+
+# Only the real domain is indexed, never the *.pages.dev addresses.
+https://:project.pages.dev/*
+  X-Robots-Tag: noindex
 `);
 
 // ---------- _redirects (Cloudflare Pages) ----------
