@@ -111,23 +111,23 @@ export function dateParts(lang, iso) {
   };
 }
 
-export function eventRow(ctx, ev) {
+export function eventRow(ctx, ev, hidden = false) {
   const p = dateParts(ctx.lang, ev.date);
   const c = ev[ctx.lang];
   const meta = [ev.time, ev.venue, ev.free ? ctx.t.events.free : ''].filter(Boolean).join(' · ');
   const href = resolveHref(ctx, ev.url);
-  return `<article class="event" data-category="${esc(ev.category)}" data-date="${esc(ev.date)}">
+  return `<article class="event" data-category="${esc(ev.category)}" data-date="${esc(ev.date)}" data-end="${eventEnd(ev)}"${hidden ? ' hidden' : ''}>
     <div class="event__date"><span class="event__day">${p.day}</span><span class="event__when">${esc(p.month)} · ${esc(p.weekday)}</span></div>
     <div class="event__body"><h3 class="event__title">${esc(c.title)}</h3><p class="event__meta">${esc(meta)}</p>${c.summary ? `<p class="event__summary">${esc(c.summary)}</p>` : ''}</div>
     <a class="btn btn--outline" href="${esc(href)}"${linkAttrs(href)}>${esc(ctx.t.events.attend)}<span class="visually-hidden">: ${esc(c.title)}</span></a>
   </article>`;
 }
 
-export function nextBar(ctx, ev) {
+export function nextBar(ctx, ev, hidden = false) {
   if (!ev) return '';
   const p = dateParts(ctx.lang, ev.date);
   const c = ev[ctx.lang];
-  return `<a class="nextbar" href="${esc(ctx.href('events'))}">
+  return `<a class="nextbar" href="${esc(ctx.href('events'))}" data-next-item data-end="${eventEnd(ev)}"${hidden ? ' hidden' : ''}>
     <span class="label">${esc(ctx.t.events.nextUp)}</span>
     <span class="nextbar__date">${p.day} ${esc(p.month)}</span>
     <span class="nextbar__title">${esc(c.title)}</span>
@@ -173,4 +173,30 @@ export function go(ctx, target) {
   const m = target.match(/^([a-z]+)#(.+)$/);
   if (m) return ctx.href(m[1]) + '#' + m[2];
   return resolveHref(ctx, target);
+}
+
+// ---------- Event times (Lisbon) ----------
+// The UTC time (ms) of a Lisbon wall-clock time. Handles summer and winter time.
+export function lisbonTime(date, h, m) {
+  const [y, mo, d] = date.split('-').map(Number);
+  const guess = Date.UTC(y, mo - 1, d, h, m);
+  const parts = Object.fromEntries(new Intl.DateTimeFormat('en-GB', {
+    timeZone: 'Europe/Lisbon', hourCycle: 'h23', year: 'numeric', month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit',
+  }).formatToParts(new Date(guess)).map((p) => [p.type, p.value]));
+  const asLisbon = Date.UTC(+parts.year, +parts.month - 1, +parts.day, +parts.hour, +parts.minute);
+  return guess - (asLisbon - guess);
+}
+
+/**
+ * When an event ends (UTC ms). After this moment it is no longer "upcoming" or "next", and it shows under "Past events".
+ * time "18:00-20:00": ends at 20:00. time "20:00": ends 2 hours after the start. No time: ends at 23:59.
+ */
+export function eventEnd(ev) {
+  const t = String(ev.time || '').match(/^(\d{1,2}):(\d{2})(?:\s*-\s*(\d{1,2}):(\d{2}))?$/);
+  if (!t) return lisbonTime(ev.date, 23, 59);
+  const start = lisbonTime(ev.date, +t[1], +t[2]);
+  if (!t[3]) return start + 2 * 3600 * 1000;
+  let end = lisbonTime(ev.date, +t[3], +t[4]);
+  if (end <= start) end += 24 * 3600 * 1000; // ends after midnight
+  return end;
 }
