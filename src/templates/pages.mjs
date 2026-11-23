@@ -61,7 +61,7 @@ export function home(ctx) {
   const next = upcoming(ctx)[0];
   const stats = ctx.data.people.stats.items;
   const showStats = stats.every((s) => s.value !== null && s.value !== '');
-  const partners = [...ctx.data.people.affiliates, ...ctx.data.people.partners].filter((p) => p.confirmed);
+  const partners = [...ctx.data.people.affiliates, ...(ctx.data.people.sponsors || []), ...ctx.data.people.partners].filter((p) => p.confirmed);
   const fellowPosts = ctx.data.posts.posts.filter((p) => p.byline === 'fellows');
   const posts = (fellowPosts.length >= 3 ? fellowPosts : ctx.data.posts.posts).slice(0, 3);
   const W = ctx.page('writing');
@@ -355,6 +355,7 @@ export function about(ctx) {
   const P = ctx.data.people;
   const avatar = (m) => m.photo ? `<img class="avatar" src="${esc(m.photo)}" alt="" width="96" height="96" loading="lazy">` : `<span class="avatar" aria-hidden="true">${esc(initials(m.name))}</span>`;
   const confirmedPartners = P.partners.filter((p) => p.confirmed);
+  const confirmedSponsors = (P.sponsors || []).filter((p) => p.confirmed);
   const body = `
 ${hero(ctx, {
   tagText: c.hero.tag, title: c.hero.title, lede: c.hero.lede,
@@ -414,6 +415,7 @@ ${hero(ctx, {
     <div class="stack" style="flex: 2 1 560px; gap: 18px">
       <div class="names"><span class="muted small" style="width: 120px; font-weight: 600">${esc(c.network.affiliates)}</span>${P.affiliates.filter((a) => a.confirmed).map((a) => `<a href="${esc(a.url)}" rel="noopener">${esc(a.name)}</a>`).join('')}</div>
       ${confirmedPartners.length ? `<div class="names" style="padding-top: 18px; border-top: 1px solid var(--line)"><span class="muted small" style="width: 120px; font-weight: 600">${esc(c.network.partners)}</span>${confirmedPartners.map((a) => `<a href="${esc(a.url)}" rel="noopener">${esc(a.name)}</a>`).join('')}</div>` : ''}
+      ${confirmedSponsors.length ? `<div class="names" style="padding-top: 18px; border-top: 1px solid var(--line)"><span class="muted small" style="width: 120px; font-weight: 600">${esc(c.network.sponsors)}</span>${confirmedSponsors.map((a) => `<a href="${esc(a.url)}" rel="noopener">${esc(a.name)}</a>`).join('')}</div>` : ''}
     </div>
   </div>
 </section>

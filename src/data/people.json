@@ -1,5 +1,5 @@
 {
-  "_note": "Team, advisors, volunteers and partner organisations. photo: a path under src/static/people/ (optional; initials show without it). Partners show only when confirmed is true.",
+  "_note": "Team, advisors, volunteers and partner organisations. photo: a path under src/static/people/ (optional; initials show without it). Affiliates, sponsors and partners show only when confirmed is true.",
   "team": [
     { "name": "Caleb Price", "photo": "", "linkedin": "https://www.linkedin.com/in/calebeliprice/",
       "en": { "role": "President", "text": "Leads LAISH's operations and management." },
@@ -31,10 +31,15 @@
   ],
   "affiliates": [
     { "name": "AI Safety Barcelona", "url": "https://www.aisafetybcn.org/", "confirmed": true },
-    { "name": "iaS, Inteligencia Artificial Segura", "url": "https://aisafety.es/en/", "confirmed": true }
+    { "name": "iaS, Inteligencia Artificial Segura", "url": "https://aisafety.es/en/", "confirmed": true },
+    { "name": "Buenos Aires AI Safety Hub (BAISH)", "url": "https://baish.com.ar/", "confirmed": true },
+    { "name": "AI Safety for Italy", "url": "https://www.ais4i.it/", "confirmed": true },
+    { "name": "Safe AI Netherlands (SAIN)", "url": "https://safeainetherlands.org/", "confirmed": true }
+  ],
+  "sponsors": [
+    { "name": "BlueDot Impact", "url": "https://bluedot.org/", "confirmed": true }
   ],
   "partners": [
-    { "name": "BlueDot Impact", "url": "https://bluedot.org/", "confirmed": false },
     { "name": "Lens Academy", "url": "https://lensacademy.org/", "confirmed": false },
     { "name": "ISCTE", "url": "https://www.iscte-iul.pt/", "confirmed": false },
     { "name": "Nova SBE", "url": "https://www.novasbe.unl.pt/", "confirmed": false },
