@@ -2,7 +2,7 @@
 import { esc, inline, markdown } from '../lib/html.mjs';
 import {
   button, tag, sectionTitle, mosaic, panel, newsletterPanel, subscribeForm, mailto,
-  eventRow, nextBar, programmeCards, initials, resolveHref, linkAttrs, dateParts, go, eventEnd,
+  eventRow, nextBar, programmeCards, initials, resolveHref, linkAttrs, dateParts, go, eventEnd, orgLink,
 } from './components.mjs';
 
 const pad = (n) => String(n).padStart(2, '0');
@@ -130,7 +130,7 @@ ${ctx.data.people.photos.items.length ? `<section class="wrap section" aria-hidd
 </section>
 
 ${partners.length ? `<section class="wrap section--tight-bottom" aria-label="${esc(c.network.label)}">
-  <div class="names"><p class="label" style="color: var(--muted)">${esc(c.network.label)}</p>${partners.map((p) => `<a href="${esc(p.url)}" rel="noopener">${esc(p.name)}</a>`).join('')}</div>
+  <div class="names"><p class="label" style="color: var(--muted)">${esc(c.network.label)}</p>${partners.map(orgLink).join('')}</div>
 </section>` : ''}
 
 <section class="wrap section">${newsletterPanel(ctx)}</section>
@@ -413,9 +413,9 @@ ${hero(ctx, {
   <div class="wrap section row" style="gap: 48px">
     <div class="stack" style="flex: 1 1 360px; gap: 14px"><p class="label">${esc(c.network.label)}</p><h2 class="display-m" id="network">${esc(c.network.title)}</h2><p class="muted">${esc(c.network.text)}</p></div>
     <div class="stack" style="flex: 2 1 560px; gap: 18px">
-      <div class="names"><span class="muted small" style="width: 120px; font-weight: 600">${esc(c.network.affiliates)}</span>${P.affiliates.filter((a) => a.confirmed).map((a) => `<a href="${esc(a.url)}" rel="noopener">${esc(a.name)}</a>`).join('')}</div>
-      ${confirmedPartners.length ? `<div class="names" style="padding-top: 18px; border-top: 1px solid var(--line)"><span class="muted small" style="width: 120px; font-weight: 600">${esc(c.network.partners)}</span>${confirmedPartners.map((a) => `<a href="${esc(a.url)}" rel="noopener">${esc(a.name)}</a>`).join('')}</div>` : ''}
-      ${confirmedSponsors.length ? `<div class="names" style="padding-top: 18px; border-top: 1px solid var(--line)"><span class="muted small" style="width: 120px; font-weight: 600">${esc(c.network.sponsors)}</span>${confirmedSponsors.map((a) => `<a href="${esc(a.url)}" rel="noopener">${esc(a.name)}</a>`).join('')}</div>` : ''}
+      <div class="names"><span class="muted small" style="width: 120px; font-weight: 600">${esc(c.network.affiliates)}</span>${P.affiliates.filter((a) => a.confirmed).map(orgLink).join('')}</div>
+      ${confirmedPartners.length ? `<div class="names" style="padding-top: 18px; border-top: 1px solid var(--line)"><span class="muted small" style="width: 120px; font-weight: 600">${esc(c.network.partners)}</span>${confirmedPartners.map(orgLink).join('')}</div>` : ''}
+      ${confirmedSponsors.length ? `<div class="names" style="padding-top: 18px; border-top: 1px solid var(--line)"><span class="muted small" style="width: 120px; font-weight: 600">${esc(c.network.sponsors)}</span>${confirmedSponsors.map(orgLink).join('')}</div>` : ''}
     </div>
   </div>
 </section>

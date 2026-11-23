@@ -1,5 +1,5 @@
 {
-  "_note": "Team, advisors, volunteers and partner organisations. photo: a path under src/static/people/ (optional; initials show without it). Affiliates, sponsors and partners show only when confirmed is true.",
+  "_note": "Team, advisors, volunteers and partner organisations. photo: a path under src/static/people/ (optional; initials show without it). Affiliates, sponsors and partners show only when confirmed is true. logo (optional): a file in src/static/logos/ (SVG or transparent PNG), e.g. \"/logos/baish.svg\". Logos are shown in the site colour; without a logo the name is shown.",
   "team": [
     { "name": "Caleb Price", "photo": "", "linkedin": "https://www.linkedin.com/in/calebeliprice/",
       "en": { "role": "President", "text": "Leads LAISH's operations and management." },
@@ -34,7 +34,8 @@
     { "name": "iaS, Inteligencia Artificial Segura", "url": "https://aisafety.es/en/", "confirmed": true },
     { "name": "Buenos Aires AI Safety Hub (BAISH)", "url": "https://baish.com.ar/", "confirmed": true },
     { "name": "AI Safety for Italy", "url": "https://www.ais4i.it/", "confirmed": true },
-    { "name": "Safe AI Netherlands (SAIN)", "url": "https://safeainetherlands.org/", "confirmed": true }
+    { "name": "Safe AI Netherlands (SAIN)", "url": "https://safeainetherlands.org/", "confirmed": true },
+    { "name": "Apart Research", "url": "https://apartresearch.com/", "confirmed": true }
   ],
   "sponsors": [
     { "name": "BlueDot Impact", "url": "https://bluedot.org/", "confirmed": true }
