@@ -35,7 +35,8 @@
     { "name": "Buenos Aires AI Safety Hub (BAISH)", "url": "https://baish.com.ar/", "confirmed": true },
     { "name": "AI Safety for Italy", "url": "https://www.ais4i.it/", "confirmed": true },
     { "name": "Safe AI Netherlands (SAIN)", "url": "https://safeainetherlands.org/", "confirmed": true },
-    { "name": "Apart Research", "url": "https://apartresearch.com/", "confirmed": true }
+    { "name": "Apart Research", "url": "https://apartresearch.com/", "confirmed": true },
+    { "name": "Plures", "url": "https://plures.org/", "confirmed": true }
   ],
   "sponsors": [
     { "name": "BlueDot Impact", "url": "https://bluedot.org/", "confirmed": true }
