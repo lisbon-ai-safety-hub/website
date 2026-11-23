@@ -114,7 +114,7 @@ export function dateParts(lang, iso) {
 export function eventRow(ctx, ev, hidden = false) {
   const p = dateParts(ctx.lang, ev.date);
   const c = ev[ctx.lang];
-  const meta = [ev.time, ev.venue, ev.free ? ctx.t.events.free : ''].filter(Boolean).join(' · ');
+  const meta = [ev.time, venueOf(ctx, ev), ev.free ? ctx.t.events.free : ''].filter(Boolean).join(' · ');
   const href = resolveHref(ctx, ev.url);
   return `<article class="event" data-category="${esc(ev.category)}" data-date="${esc(ev.date)}" data-end="${eventEnd(ev)}"${hidden ? ' hidden' : ''}>
     <div class="event__date"><span class="event__day">${p.day}</span><span class="event__when">${esc(p.month)} · ${esc(p.weekday)}</span></div>
@@ -173,6 +173,13 @@ export function go(ctx, target) {
   const m = target.match(/^([a-z]+)#(.+)$/);
   if (m) return ctx.href(m[1]) + '#' + m[2];
   return resolveHref(ctx, target);
+}
+
+// An event's venue: a plain name, or { en, pt } when it needs translating.
+export function venueOf(ctx, ev) {
+  const v = ev.venue;
+  if (!v) return '';
+  return typeof v === 'string' ? v : (v[ctx.lang] || v.en || '');
 }
 
 // ---------- Event times (Lisbon) ----------

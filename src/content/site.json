@@ -50,7 +50,7 @@
     },
     "newsletter": {
       "label": "Newsletter · EN and PT",
-      "title": "One email a month.",
+      "title": "One newsletter a month, plus articles from our community most weeks.",
       "text": "Frontier AI news, plus jobs and fellowships you can apply to.",
       "email": "Email address",
       "button": "Subscribe",
@@ -225,7 +225,7 @@
     },
     "newsletter": {
       "label": "Newsletter · EN e PT",
-      "title": "Um email por mês.",
+      "title": "Uma newsletter por mês e, quase todas as semanas, artigos da nossa comunidade.",
       "text": "Notícias sobre IA de fronteira, e ainda empregos e fellowships a que te podes candidatar.",
       "email": "Endereço de email",
       "button": "Subscrever",
