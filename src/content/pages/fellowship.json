@@ -6,7 +6,7 @@
       "tag": "Foundations of AI Safety Fellowship",
       "title": "A grounding in AI safety, in eight weeks.",
       "lede": "A free, in-person fellowship in Lisbon for students and working professionals. Learn the risks of advanced AI and the practical ways you can help. No technical background needed.",
-      "status": "Applications closed · Next round: [Month 2027]",
+      "status": "Applications closed · Next round: Q1 2027",
       "primary": "Tell me when applications open",
       "secondary": "Read the fellows' reflections"
     },
@@ -19,7 +19,7 @@
         ["Workload", "About 2 hours of reading a week, plus the session"],
         ["Cost", "Free"],
         ["Certificate", "From Lens Academy, when you attend 6 of 8 sessions"],
-        ["Next round", "[Month 2027]. Applications [date] to [date]"]
+        ["Next round", "Q1 2027. Dates to be announced."]
       ]
     },
     "weeks": {
@@ -27,7 +27,7 @@
       "title": "Eight weeks, from capabilities to your next step.",
       "intro": "Six discussion weeks and two guest lectures from people who already work in AI safety. Then an optional co-working and career day.",
       "guest": "Guest lecture",
-      "note": "Week plan from the autumn 2026 cohort. [Confirm the 2027 plan.]",
+      "note": "Week plan from the autumn 2026 cohort.",
       "items": [
         { "title": "Capabilities", "text": "How AI systems are built, measured and forecast." },
         { "title": "Risks", "text": "Misuse, misalignment and systemic risks, and the first strategies against them." },
@@ -113,7 +113,7 @@
       "tag": "Fellowship em Fundamentos da Segurança da IA",
       "title": "Uma base em segurança da IA, em oito semanas.",
       "lede": "Um fellowship gratuito e presencial em Lisboa para estudantes e profissionais. Conhece os riscos da IA avançada e as formas práticas de ajudar. Não precisas de conhecimentos técnicos.",
-      "status": "Candidaturas encerradas · Próxima edição: [mês de 2027]",
+      "status": "Candidaturas encerradas · Próxima edição: 1.º trimestre de 2027",
       "primary": "Avisa-me quando abrirem as candidaturas",
       "secondary": "Lê as reflexões dos fellows"
     },
@@ -126,7 +126,7 @@
         ["Carga de trabalho", "Cerca de 2 horas de leitura por semana, mais a sessão"],
         ["Custo", "Gratuito"],
         ["Certificado", "Da Lens Academy, se participares em 6 das 8 sessões"],
-        ["Próxima edição", "[mês de 2027]. Candidaturas de [data] a [data]"]
+        ["Próxima edição", "1.º trimestre de 2027. Datas a anunciar."]
       ]
     },
     "weeks": {
@@ -134,7 +134,7 @@
       "title": "Oito semanas, das capacidades ao teu próximo passo.",
       "intro": "Seis semanas de discussão e duas palestras de pessoas que já trabalham em segurança da IA. No fim, um dia opcional de trabalho conjunto e orientação de carreira.",
       "guest": "Palestra convidada",
-      "note": "Plano semanal da edição do outono de 2026. [Confirmar o plano de 2027.]",
+      "note": "Plano semanal da edição do outono de 2026.",
       "items": [
         { "title": "Capacidades", "text": "Como os sistemas de IA são construídos, medidos e previstos." },
         { "title": "Riscos", "text": "Uso indevido, desalinhamento e riscos sistémicos, e as primeiras estratégias para os enfrentar." },

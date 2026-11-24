@@ -21,35 +21,35 @@
     {
       "id": "2026-12-08-the-ai-doc",
       "date": "2026-12-08",
-      "time": "20:00",
+      "time": "20:00-23:30",
       "category": "screening",
       "venue": "Absent Offline Cafe",
-      "url": "[Luma link]",
+      "url": "https://luma.com/aloozpmz",
       "free": true,
       "en": {
         "title": "Film screening: The AI Doc, or How I Became an Apocaloptimist",
-        "summary": "Free screening of the 2026 documentary by Daniel Roher, then a discussion on \"apocaloptimism\" and policy change. Light refreshments."
+        "summary": "Free screening of the 2026 documentary by Daniel Roher, then a discussion on \"apocaloptimism\" and policy change. Doors open at 20:00, the film starts at 21:00."
       },
       "pt": {
         "title": "Exibição de filme: The AI Doc, or How I Became an Apocaloptimist",
-        "summary": "Exibição gratuita do documentário de 2026 de Daniel Roher, seguida de debate sobre \"apocalotimismo\" e mudança de políticas. Com pequeno lanche."
+        "summary": "Exibição gratuita do documentário de 2026 de Daniel Roher, seguida de debate sobre \"apocalotimismo\" e mudança de políticas. As portas abrem às 20:00 e o filme começa às 21:00."
       }
     },
     {
       "id": "2026-12-14-frontier-paper-group",
       "date": "2026-12-14",
-      "time": "19:00",
+      "time": "19:00-20:30",
       "category": "discussion",
       "venue": { "en": "Sign up for more details", "pt": "Inscreve-te para mais detalhes" },
-      "url": "[Luma link]",
+      "url": "https://luma.com/zs1vaqfq",
       "free": true,
       "en": {
-        "title": "Frontier Paper Discussion Group",
-        "summary": "A roundtable on new research on frontier AI. Light refreshments."
+        "title": "Discussion group: Europe 2031",
+        "summary": "An open discussion of Europe 2031 by Daan Juijn and co-authors: a five-year scenario of what happens if Europe stays on its current path on AI."
       },
       "pt": {
-        "title": "Grupo de discussão de artigos de fronteira",
-        "summary": "Uma mesa-redonda sobre investigação recente em IA de fronteira. Com pequeno lanche."
+        "title": "Grupo de discussão: Europe 2031",
+        "summary": "Uma discussão aberta sobre Europe 2031, de Daan Juijn e coautores: um cenário a cinco anos sobre o que acontece se a Europa mantiver o rumo atual na IA."
       }
     }
   ],
