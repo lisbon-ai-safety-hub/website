@@ -54,6 +54,14 @@ function eventList(ctx, events, id, limit = 0) {
   </div>${empty(false)}`;
 }
 
+/** Name, role and a small round photo (advisors, volunteers). */
+function personLine(p, text, style = '') {
+  const img = p.photo
+    ? `<img class="avatar avatar--sm" src="${esc(p.photo)}" alt="" width="56" height="56" loading="lazy">`
+    : `<span class="avatar avatar--sm" aria-hidden="true">${esc(initials(p.name))}</span>`;
+  return `<div class="list-line person-line"${style ? ` style="${style}"` : ''}>${img}<span class="person-line__text"><span style="font-weight: 700">${esc(p.name)}</span><span class="muted small">${esc(text)}</span></span></div>`;
+}
+
 // ------------------------------------------------------------------ Home
 export function home(ctx) {
   const c = ctx.page('home');
@@ -125,7 +133,7 @@ ${ctx.data.people.photos.items.length ? `<section class="wrap section" aria-hidd
 <section class="wrap section section--tight-bottom" aria-labelledby="advisors">
   <div class="stack" style="gap: 24px">
     <div class="section-head">${sectionTitle({ label: ctx.page('paths').advisors.label, title: ctx.page('paths').advisors.title, id: 'advisors' })}<a class="link-arrow" href="${ctx.href('about')}#team">${esc(ctx.page('paths').advisors.link)}</a></div>
-    <div class="row row--narrow" style="gap: 0 32px">${ctx.data.people.advisors.map((a) => `<div class="list-line" style="flex: 1 1 300px"><span style="font-weight: 700">${esc(a.name)}</span><span class="muted small">${esc(a[ctx.lang])}</span></div>`).join('')}</div>
+    <div class="row row--narrow" style="gap: 0 32px">${ctx.data.people.advisors.map((a) => personLine(a, a[ctx.lang], 'flex: 1 1 300px')).join('')}</div>
   </div>
 </section>
 
@@ -403,8 +411,8 @@ ${hero(ctx, {
     ${sectionTitle({ label: c.team.label, title: c.team.title, id: 'team-title' })}
     <div class="row row--narrow" style="gap: 32px">${P.team.map((m) => `<div class="person">${avatar(m)}<h3 class="title title--sm">${m.linkedin ? `<a href="${esc(m.linkedin)}" rel="noopener" style="color: inherit">${esc(m.name)}</a>` : esc(m.name)}</h3><span class="person__role">${esc(m[ctx.lang].role)}</span><p class="muted small">${esc(m[ctx.lang].text)}</p></div>`).join('')}</div>
     <div class="row" style="gap: 48px">
-      <div style="flex: 2 1 560px"><h3 class="label" style="padding-bottom: 8px">${esc(c.team.advisors)}</h3><div class="row" style="gap: 0 32px">${P.advisors.map((a) => `<div class="list-line" style="flex: 1 1 320px"><span style="font-weight: 700">${esc(a.name)}</span><span class="muted small">${esc(a[ctx.lang])}</span></div>`).join('')}</div></div>
-      <div style="flex: 1 1 280px"><h3 class="label" style="padding-bottom: 8px">${esc(c.team.volunteers)}</h3>${P.volunteers.map((v) => `<div class="list-line"><span style="font-weight: 700">${esc(v.name)}</span><span class="muted small">${esc(v[ctx.lang])}</span></div>`).join('')}</div>
+      <div style="flex: 2 1 560px"><h3 class="label" style="padding-bottom: 8px">${esc(c.team.advisors)}</h3><div class="row" style="gap: 0 32px">${P.advisors.map((a) => personLine(a, a[ctx.lang], 'flex: 1 1 320px')).join('')}</div></div>
+      <div style="flex: 1 1 280px"><h3 class="label" style="padding-bottom: 8px">${esc(c.team.volunteers)}</h3>${P.volunteers.map((v) => personLine(v, v[ctx.lang])).join('')}</div>
     </div>
   </div>
 </section>

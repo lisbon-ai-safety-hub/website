@@ -9,7 +9,7 @@
       "lede": "AI safety is a sociotechnical problem, so we support both governance and technical work. Pick the step that fits you today. Most people take several over a term or two."
     },
     "items": [
-      { "id": "fellowship", "feature": true, "status": "Next round: [Month 2027]", "title": "Foundations of AI Safety Fellowship", "text": "8 weeks, in person in Lisbon. For students and professionals. No technical background needed.", "href": "fellowship", "cta": "About the fellowship" },
+      { "id": "fellowship", "feature": true, "status": "Next round: Q1 2027", "title": "Foundations of AI Safety Fellowship", "text": "8 weeks, in person in Lisbon. For students and professionals. No technical background needed.", "href": "fellowship", "cta": "About the fellowship" },
       { "id": "events", "status": "Open to all", "title": "Events and lectures", "text": "Film screenings, discussion groups and guest lectures from people who work in AI safety.", "href": "events", "cta": "See what is on" },
       { "id": "discussion", "status": "Monthly", "title": "Discussion groups", "text": "Roundtables on new research papers and books on frontier AI.", "href": "events", "cta": "See dates" },
       { "id": "careers", "status": "Apply any time", "title": "Career guidance", "text": "Tailored advice on courses, fellowships and roles in AI safety. In person or online.", "href": "careerForm", "cta": "Ask for guidance" },
@@ -31,7 +31,7 @@
       "lede": "A segurança da IA é um problema sociotécnico, por isso apoiamos tanto a governação como o trabalho técnico. Escolhe o passo que se adequa a ti hoje. A maioria das pessoas dá vários ao longo de um ou dois trimestres."
     },
     "items": [
-      { "id": "fellowship", "feature": true, "status": "Próxima edição: [mês de 2027]", "title": "Fellowship em Fundamentos da Segurança da IA", "text": "8 semanas, presencial em Lisboa. Para estudantes e profissionais. Não precisas de conhecimentos técnicos.", "href": "fellowship", "cta": "Sobre o fellowship" },
+      { "id": "fellowship", "feature": true, "status": "Próxima edição: 1.º trimestre de 2027", "title": "Fellowship em Fundamentos da Segurança da IA", "text": "8 semanas, presencial em Lisboa. Para estudantes e profissionais. Não precisas de conhecimentos técnicos.", "href": "fellowship", "cta": "Sobre o fellowship" },
       { "id": "events", "status": "Aberto a todos", "title": "Eventos e palestras", "text": "Exibições de filmes, grupos de discussão e palestras de pessoas que trabalham em segurança da IA.", "href": "events", "cta": "Ver o programa" },
       { "id": "discussion", "status": "Mensal", "title": "Grupos de discussão", "text": "Mesas-redondas sobre artigos e livros recentes sobre IA de fronteira.", "href": "events", "cta": "Ver datas" },
       { "id": "careers", "status": "Candidaturas sempre abertas", "title": "Orientação de carreira", "text": "Aconselhamento personalizado sobre cursos, fellowships e funções em segurança da IA. Presencial ou online.", "href": "careerForm", "cta": "Pedir orientação" },

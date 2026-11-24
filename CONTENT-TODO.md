@@ -6,9 +6,9 @@ The site is complete, but some text is a placeholder. The site shows a yellow "D
 
 | # | What | Where it goes |
 |---|---|---|
-| 1 | Venue for the 8 Dec screening and the 14 Dec discussion group | `src/data/events.json` (`venue`) |
-| 2 | Luma (or other) link for each event, and the calendar link | `events.json` (`url`), `site.json` (`links.calendar`) |
-| 3 | Next fellowship round: month, application dates, 2027 plan (still 8 weeks?) | `src/content/pages/fellowship.json`, `programmes.json`, `other.json` |
+| 1 | ~~Venue for the 8 Dec screening and the 14 Dec discussion group~~ Done 24 Nov (from Luma) | `src/data/events.json` (`venue`) |
+| 2 | ~~Luma link for each event~~ Done 24 Nov. Still missing: the Luma calendar link | `site.json` (`links.calendar`) |
+| 3 | Next fellowship round: Q1 2027 (decided 24 Nov). Still missing: exact application and start dates | `fellowship.json`, `programmes.json`, `other.json` |
 | 4 | Are sessions always in English? | `fellowship.json` ("know" box) |
 | 5 | One quote from a 2026 fellow, with their consent, name and study or job | `fellowship.json` ("reflections") |
 | 6 | Launch date for the privacy policy | `src/content/docs/privacy.en.md` and `.pt.md` |
@@ -30,8 +30,8 @@ The site is complete, but some text is a placeholder. The site shows a yellow "D
 
 | # | What | Where it goes |
 |---|---|---|
-| 15 | 3 to 6 community photos, with consent of the people in them | `src/static/photos/` and `people.json` |
-| 16 | Team photos (square, 400 x 400 px) | `src/static/people/` and `people.json` |
+| 15 | 3 to 6 community photos. The live site has 5 (talk, fellowship workshop, gathering, evening meetup, park meetup): use those | `src/static/photos/` and `people.json` (`photos`) |
+| 16 | ~~Team photos~~ Done 24 Nov: team, advisors and volunteers (from the live site) | `src/static/people/` and `people.json` |
 | 17 | Four numbers: fellows trained, cohorts, events, community members | `people.json` (`stats`) |
 | 18 | Which partners agree to be named (BlueDot, Lens Academy, ISCTE, Nova SBE, Técnico) | `people.json` (`partners`, `confirmed`) |
 | 19 | Past events with dates and number of people | `events.json` |

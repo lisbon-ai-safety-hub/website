@@ -295,6 +295,9 @@ a.card:hover { border-color: var(--line-strong); }
 .person { display: flex; flex-direction: column; gap: 10px; }
 .avatar { width: 96px; height: 96px; border-radius: 50%; background: var(--mist); display: flex; align-items: center; justify-content: center; font-stretch: 125%; font-weight: 800; font-size: 28px; color: var(--accent-text); object-fit: cover; }
 .person__role { font-size: 15px; font-weight: 600; color: var(--accent-text); }
+.list-line.person-line { flex-direction: row; align-items: center; gap: 14px; }
+.person-line__text { display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+.avatar--sm { width: 56px; height: 56px; font-size: 18px; flex: none; }
 .list-line { display: flex; flex-direction: column; gap: 2px; padding: 16px 0; border-top: 1px solid var(--line); }
 
 /* ---------- FAQ ---------- */
