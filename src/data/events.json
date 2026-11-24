@@ -23,13 +23,8 @@
       "date": "2026-12-08",
       "time": "20:00-23:30",
       "category": "screening",
-<<<<<<< Updated upstream
       "venue": "Absent Offline Cafe",
-      "url": "[Luma link]",
-=======
-      "venue": "Absent Lisbon (Offline Café & Third Space)",
       "url": "https://luma.com/aloozpmz",
->>>>>>> Stashed changes
       "free": true,
       "en": {
         "title": "Film screening: The AI Doc, or How I Became an Apocaloptimist",
@@ -45,21 +40,16 @@
       "date": "2026-12-14",
       "time": "19:00-20:30",
       "category": "discussion",
-<<<<<<< Updated upstream
       "venue": { "en": "Sign up for more details", "pt": "Inscreve-te para mais detalhes" },
-      "url": "[Luma link]",
-=======
-      "venue": "Lisbon",
       "url": "https://luma.com/zs1vaqfq",
->>>>>>> Stashed changes
       "free": true,
       "en": {
         "title": "Discussion group: Europe 2031",
-        "summary": "An open discussion of Europe 2031 by Daan Juijn and co-authors: a five-year scenario of what happens if Europe stays on its current path on AI. You get the address when you register."
+        "summary": "An open discussion of Europe 2031 by Daan Juijn and co-authors: a five-year scenario of what happens if Europe stays on its current path on AI."
       },
       "pt": {
         "title": "Grupo de discussão: Europe 2031",
-        "summary": "Uma discussão aberta sobre Europe 2031, de Daan Juijn e coautores: um cenário a cinco anos sobre o que acontece se a Europa mantiver o rumo atual na IA. Recebes a morada quando te inscreves."
+        "summary": "Uma discussão aberta sobre Europe 2031, de Daan Juijn e coautores: um cenário a cinco anos sobre o que acontece se a Europa mantiver o rumo atual na IA."
       }
     }
   ],

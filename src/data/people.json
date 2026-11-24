@@ -1,126 +1,35 @@
 {
   "_note": "Team, advisors, volunteers and partner organisations. photo: a path under src/static/people/ (optional; initials show without it). Affiliates, sponsors and partners show only when confirmed is true. logo (optional): a file in src/static/logos/ (SVG or transparent PNG), e.g. \"/logos/baish.svg\". Logos are shown in the site colour; without a logo the name is shown.",
   "team": [
-    {
-      "name": "Caleb Price",
-      "photo": "/people/caleb-price.jpg",
-      "linkedin": "https://www.linkedin.com/in/calebeliprice/",
-      "en": {
-        "role": "President",
-        "text": "Leads LAISH's operations and management."
-      },
-      "pt": {
-        "role": "Presidente",
-        "text": "Lidera as operações e a gestão da LAISH."
-      }
-    },
-    {
-      "name": "Tânia Girão",
-      "photo": "/people/tania-girao.jpg",
-      "linkedin": "https://www.linkedin.com/in/taniagirao/",
-      "en": {
-        "role": "Head of Communications",
-        "text": "Shares programmes, events and research with the community."
-      },
-      "pt": {
-        "role": "Responsável pela Comunicação",
-        "text": "Divulga programas, eventos e investigação junto da comunidade."
-      }
-    },
-    {
-      "name": "João Bexiga",
-      "photo": "/people/joao-bexiga.jpg",
-      "linkedin": "https://www.linkedin.com/in/jbexiga/",
-      "en": {
-        "role": "Head of Operations",
-        "text": "Runs the systems behind programmes and events."
-      },
-      "pt": {
-        "role": "Responsável pelas Operações",
-        "text": "Gere os sistemas por trás dos programas e eventos."
-      }
-    },
-    {
-      "name": "Orlando Torres",
-      "photo": "/people/orlando-torres.jpg",
-      "linkedin": "https://www.linkedin.com/in/orlandotorres1/",
-      "en": {
-        "role": "Chief of Staff",
-        "text": "Drives LAISH's priorities with the leadership team."
-      },
-      "pt": {
-        "role": "Chefe de Gabinete",
-        "text": "Faz avançar as prioridades da LAISH com a equipa de liderança."
-      }
-    },
-    {
-      "name": "Frederico Luz",
-      "photo": "/people/frederico-luz.jpg",
-      "linkedin": "https://www.linkedin.com/in/fredericoluzai/",
-      "en": {
-        "role": "Discussion Group Coordinator",
-        "text": "Runs the paper and book discussion groups."
-      },
-      "pt": {
-        "role": "Coordenador dos Grupos de Discussão",
-        "text": "Coordena os grupos de discussão de artigos e livros."
-      }
-    }
+    { "name": "Caleb Price", "photo": "/people/caleb-price.jpg", "linkedin": "https://www.linkedin.com/in/calebeliprice/",
+      "en": { "role": "President", "text": "Leads LAISH's operations and management." },
+      "pt": { "role": "Presidente", "text": "Lidera as operações e a gestão da LAISH." } },
+    { "name": "Tânia Girão", "photo": "/people/tania-girao.jpg", "linkedin": "https://www.linkedin.com/in/taniagirao/",
+      "en": { "role": "Head of Communications", "text": "Shares programmes, events and research with the community." },
+      "pt": { "role": "Responsável pela Comunicação", "text": "Divulga programas, eventos e investigação junto da comunidade." } },
+    { "name": "João Bexiga", "photo": "/people/joao-bexiga.jpg", "linkedin": "https://www.linkedin.com/in/jbexiga/",
+      "en": { "role": "Head of Operations", "text": "Runs the systems behind programmes and events." },
+      "pt": { "role": "Responsável pelas Operações", "text": "Gere os sistemas por trás dos programas e eventos." } },
+    { "name": "Orlando Torres", "photo": "/people/orlando-torres.jpg", "linkedin": "https://www.linkedin.com/in/orlandotorres1/",
+      "en": { "role": "Chief of Staff", "text": "Drives LAISH's priorities with the leadership team." },
+      "pt": { "role": "Chefe de Gabinete", "text": "Faz avançar as prioridades da LAISH com a equipa de liderança." } },
+    { "name": "Frederico Luz", "photo": "/people/frederico-luz.jpg", "linkedin": "https://www.linkedin.com/in/fredericoluzai/",
+      "en": { "role": "Discussion Group Coordinator", "text": "Runs the paper and book discussion groups." },
+      "pt": { "role": "Coordenador dos Grupos de Discussão", "text": "Coordena os grupos de discussão de artigos e livros." } }
   ],
   "advisors": [
-    {
-      "name": "Manon Kempermann",
-      "en": "Generator resident, Pathfinder fellow and Program Director at Safe AI Germany",
-      "pt": "Residente do Generator, fellow do Pathfinder e Diretora de Programas na Safe AI Germany",
-      "photo": "/people/manon-kempermann.jpg"
-    },
-    {
-      "name": "Tzu Kit Chan",
-      "en": "Outgoing Chief of Staff at Atlas Computing, incoming Head of Operations at Robocurve",
-      "pt": "Chief of Staff de saída na Atlas Computing e futuro Responsável de Operações na Robocurve",
-      "photo": "/people/tzu-kit-chan.jpg"
-    },
-    {
-      "name": "Julien Sireau",
-      "en": "Operations Manager at Oxford AI Safety Initiative, Gen Stream Co-Founder and Founding President of AI Safety Cardiff University",
-      "pt": "Gestor de Operações na Oxford AI Safety Initiative, cofundador da Gen Stream e presidente fundador da AI Safety Cardiff University",
-      "photo": "/people/julien-sireau.jpg"
-    },
-    {
-      "name": "Yaqoob Ahmad",
-      "en": "Founder and Co-Director of Gen Stream, Operations associate at Impact Ops and Field-builder and Generalist in AI safety",
-      "pt": "Fundador e Codiretor da Gen Stream, Associado de Operações na Impact Ops, field-builder e generalista em segurança da IA",
-      "photo": "/people/yaqoob-ahmad.jpg"
-    },
-    {
-      "name": "Sam Baskeyfield",
-      "en": "Operations Associate at The Future Society",
-      "pt": "Associado de Operações na The Future Society",
-      "photo": "/people/sam-baskeyfield.jpg"
-    },
-    {
-      "name": "Alexander Müller",
-      "en": "Director of Safe AI Netherlands (SAIN)",
-      "pt": "Diretor da Safe AI Netherlands (SAIN)",
-      "photo": "/people/alexander-muller.jpg"
-    }
+    { "name": "Manon Kempermann", "photo": "/people/manon-kempermann.jpg", "en": "Generator resident, Pathfinder fellow and Program Director at Safe AI Germany", "pt": "Residente do Generator, fellow do Pathfinder e Diretora de Programas na Safe AI Germany" },
+    { "name": "Tzu Kit Chan", "photo": "/people/tzu-kit-chan.jpg", "en": "Outgoing Chief of Staff at Atlas Computing, incoming Head of Operations at Robocurve", "pt": "Chief of Staff de saída na Atlas Computing e futuro Responsável de Operações na Robocurve" },
+    { "name": "Julien Sireau", "photo": "/people/julien-sireau.jpg", "en": "Operations Manager at Oxford AI Safety Initiative, Gen Stream Co-Founder and Founding President of AI Safety Cardiff University", "pt": "Gestor de Operações na Oxford AI Safety Initiative, cofundador da Gen Stream e presidente fundador da AI Safety Cardiff University" },
+    { "name": "Yaqoob Ahmad", "photo": "/people/yaqoob-ahmad.jpg", "en": "Founder and Co-Director of Gen Stream, Operations associate at Impact Ops and Field-builder and Generalist in AI safety", "pt": "Fundador e Codiretor da Gen Stream, Associado de Operações na Impact Ops, field-builder e generalista em segurança da IA" },
+    { "name": "Sam Baskeyfield", "photo": "/people/sam-baskeyfield.jpg", "en": "Operations Associate at The Future Society", "pt": "Associado de Operações na The Future Society" },
+    { "name": "Alexander Müller", "photo": "/people/alexander-muller.jpg", "en": "Director of Safe AI Netherlands (SAIN)", "pt": "Diretor da Safe AI Netherlands (SAIN)" }
   ],
   "volunteers": [
-    {
-      "name": "Haimi Tefera",
-      "en": "Outreach, Nova University",
-      "pt": "Divulgação, Universidade Nova",
-      "photo": "/people/haimi-tefera.jpg"
-    },
-    {
-      "name": "Alice Parrinha",
-      "en": "Outreach, Instituto Superior Técnico",
-      "pt": "Divulgação, Instituto Superior Técnico",
-      "photo": "/people/alice-parrinha.jpg"
-    }
+    { "name": "Haimi Tefera", "photo": "/people/haimi-tefera.jpg", "en": "Outreach, Nova University", "pt": "Divulgação, Universidade Nova" },
+    { "name": "Alice Parrinha", "photo": "/people/alice-parrinha.jpg", "en": "Outreach, Instituto Superior Técnico", "pt": "Divulgação, Instituto Superior Técnico" }
   ],
   "affiliates": [
-<<<<<<< Updated upstream
     { "name": "AI Safety Barcelona", "url": "https://www.aisafetybcn.org/", "confirmed": true },
     { "name": "iaS, Inteligencia Artificial Segura", "url": "https://aisafety.es/en/", "confirmed": true },
     { "name": "Buenos Aires AI Safety Hub (BAISH)", "url": "https://baish.com.ar/", "confirmed": true },
@@ -137,69 +46,14 @@
     { "name": "ISCTE", "url": "https://www.iscte-iul.pt/", "confirmed": false },
     { "name": "Nova SBE", "url": "https://www.novasbe.unl.pt/", "confirmed": false },
     { "name": "Técnico", "url": "https://tecnico.ulisboa.pt/", "confirmed": false }
-=======
-    {
-      "name": "AI Safety Barcelona",
-      "url": "https://www.aisafetybcn.org/",
-      "confirmed": true
-    },
-    {
-      "name": "iaS, Inteligencia Artificial Segura",
-      "url": "https://aisafety.es/en/",
-      "confirmed": true
-    }
-  ],
-  "partners": [
-    {
-      "name": "BlueDot Impact",
-      "url": "https://bluedot.org/",
-      "confirmed": false
-    },
-    {
-      "name": "Lens Academy",
-      "url": "https://lensacademy.org/",
-      "confirmed": false
-    },
-    {
-      "name": "ISCTE",
-      "url": "https://www.iscte-iul.pt/",
-      "confirmed": false
-    },
-    {
-      "name": "Nova SBE",
-      "url": "https://www.novasbe.unl.pt/",
-      "confirmed": false
-    },
-    {
-      "name": "Técnico",
-      "url": "https://tecnico.ulisboa.pt/",
-      "confirmed": false
-    }
->>>>>>> Stashed changes
   ],
   "stats": {
     "_note": "Shown on the home page only when every value is filled in.",
     "items": [
-      {
-        "value": null,
-        "en": "Fellows trained",
-        "pt": "Fellows formados"
-      },
-      {
-        "value": null,
-        "en": "Cohorts run",
-        "pt": "Edições realizadas"
-      },
-      {
-        "value": null,
-        "en": "Events and lectures",
-        "pt": "Eventos e palestras"
-      },
-      {
-        "value": null,
-        "en": "Community members",
-        "pt": "Membros da comunidade"
-      }
+      { "value": null, "en": "Fellows trained", "pt": "Fellows formados" },
+      { "value": null, "en": "Cohorts run", "pt": "Edições realizadas" },
+      { "value": null, "en": "Events and lectures", "pt": "Eventos e palestras" },
+      { "value": null, "en": "Community members", "pt": "Membros da comunidade" }
     ]
   },
   "photos": {
