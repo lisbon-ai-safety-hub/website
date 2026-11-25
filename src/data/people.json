@@ -30,16 +30,16 @@
     { "name": "Alice Parrinha", "photo": "/people/alice-parrinha.jpg", "en": "Outreach, Instituto Superior Técnico", "pt": "Divulgação, Instituto Superior Técnico" }
   ],
   "affiliates": [
-    { "name": "AI Safety Barcelona", "url": "https://www.aisafetybcn.org/", "confirmed": true },
-    { "name": "iaS, Inteligencia Artificial Segura", "url": "https://aisafety.es/en/", "confirmed": true },
-    { "name": "Buenos Aires AI Safety Hub (BAISH)", "url": "https://baish.com.ar/", "confirmed": true },
-    { "name": "AI Safety for Italy", "url": "https://www.ais4i.it/", "confirmed": true },
-    { "name": "Safe AI Netherlands (SAIN)", "url": "https://safeainetherlands.org/", "confirmed": true },
-    { "name": "Apart Research", "url": "https://apartresearch.com/", "confirmed": true },
-    { "name": "Plures", "url": "https://plures.org/", "confirmed": true }
+    { "name": "AI Safety Barcelona", "url": "https://www.aisafetybcn.org/", "logo": "/logos/ai-safety-barcelona.png", "confirmed": true },
+    { "name": "iaS, Inteligencia Artificial Segura", "url": "https://aisafety.es/en/", "logo": "/logos/ias.png", "confirmed": true },
+    { "name": "Buenos Aires AI Safety Hub (BAISH)", "url": "https://baish.com.ar/", "logo": "/logos/baish.svg", "confirmed": true },
+    { "name": "AI Safety for Italy", "url": "https://www.ais4i.it/", "logo": "/logos/ai-safety-italy.svg", "confirmed": true },
+    { "name": "Safe AI Netherlands (SAIN)", "url": "https://safeainetherlands.org/", "logo": "/logos/sain.png", "confirmed": true },
+    { "name": "Apart Research", "url": "https://apartresearch.com/", "logo": "/logos/apart-research.svg", "confirmed": true },
+    { "name": "Plures", "url": "https://plures.org/", "logo": "/logos/plures.svg", "confirmed": true }
   ],
   "sponsors": [
-    { "name": "BlueDot Impact", "url": "https://bluedot.org/", "confirmed": true }
+    { "name": "BlueDot Impact", "url": "https://bluedot.org/", "logo": "/logos/bluedot-impact.svg", "confirmed": true }
   ],
   "partners": [
     { "name": "Lens Academy", "url": "https://lensacademy.org/", "confirmed": false },
