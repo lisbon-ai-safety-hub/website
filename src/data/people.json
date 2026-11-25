@@ -36,7 +36,7 @@
     { "name": "AI Safety for Italy", "url": "https://www.ais4i.it/", "logo": "/logos/ai-safety-italy.svg", "confirmed": true },
     { "name": "Safe AI Netherlands (SAIN)", "url": "https://safeainetherlands.org/", "logo": "/logos/sain.png", "confirmed": true },
     { "name": "Apart Research", "url": "https://apartresearch.com/", "logo": "/logos/apart-research.svg", "confirmed": true },
-    { "name": "Plures", "url": "https://plures.org/", "logo": "/logos/plures.png", "confirmed": true }
+    { "name": "Plures", "url": "https://plures.org/", "logo": "/logos/plures.svg", "confirmed": true }
   ],
   "sponsors": [
     { "name": "BlueDot Impact", "url": "https://bluedot.org/", "logo": "/logos/bluedot-impact.svg", "confirmed": true }
